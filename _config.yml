@@ -1,0 +1,6 @@
+defaults:
+  -
+    scope:
+      paht: ""
+    values:
+      layout: default
