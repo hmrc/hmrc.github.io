@@ -18,10 +18,10 @@ Information about the HMRC GitHub organisation, repositories and approaches to s
 * Clone this repo
 * Run`bundle install`
 * Run `bundle exec jekyll serve`
-* Open a browser at [http://localhost:3000](http://localhost:3000)
+* Open a browser at [http://localhost:4000](http://localhost:4000)
 
 ## Making changes
 
 * Create/edit `.md` files in the root of the repo
 * Directory structure gets turned into urls
-	* i.e. `/foo/bar/index.md` becomes `localhost:3000/foo/bar`
+	* i.e. `/foo/bar/index.md` becomes `localhost:4000/foo/bar`
