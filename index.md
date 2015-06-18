@@ -14,3 +14,7 @@ The Multichannel Digital Tax Platform (MDTP) is a place for British citizens and
 HMRC has a firm commitment to Coding In The Open - developing, testing, building, and releasing code in such a way that the British taxpayer can contribute.
 
 The vast majority of HMRC tax products are either open-sourced on GitHub or in the process of being open-sourced at present. More information will be announced soon.
+
+####Developer Documentation
+
++ [Steps for adding a new Scala library to github.com]({% post_url 2015-06-18-adding-a-new-scala-library-to-github %})
