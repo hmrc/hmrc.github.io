@@ -17,6 +17,7 @@ Information about the HMRC GitHub organisation, repositories and approaches to s
 
 * Clone this repo
 * Run`bundle install`
+* Run `bundle exec jekyll serve`
 * Open a browser at [http://localhost:3000](http://localhost:3000)
 
 ## Making changes
