@@ -17,4 +17,4 @@ The vast majority of HMRC tax products are either open-sourced on GitHub or in t
 
 ####Developer Documentation
 
-+ [Steps for adding a new Scala library to github.com]({% post_url 2015-06-18-adding-a-new-scala-library-to-github %})
++ [Steps for adding a new Scala library to github.com](/adding-a-new-scala-library-to-github.html)
