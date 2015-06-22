@@ -3,4 +3,4 @@ defaults:
     scope:
       paht: ""
     values:
-      layout: default
+      layout: govuk_template
