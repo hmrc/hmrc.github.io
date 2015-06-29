@@ -27,7 +27,7 @@ At HMRC, we want to be transparent about what we are spending money on. Our mani
 
 Hopefully the repositories that we produce are of use to other Open Source projects, but at worst they will provide real world examples of using the [Play Framework](https://playframework.com/), interacting with [MongoDB](https://www.mongodb.org/) using [ReactiveMongo](http://reactivemongo.org/), etc.
 
-Of course if you think there is a better way of doing something then submit a pull request or raise an issue - but don't send a letter, we are (Digital by default)[https://www.gov.uk/service-manual/start] after all.
+Of course if you think there is a better way of doing something then submit a pull request or raise an issue - but don't send a letter, we are [Digital By Default](https://www.gov.uk/service-manual/start) after all!
 
 ## Developer Documentation
 
