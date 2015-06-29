@@ -19,7 +19,7 @@ The vast majority of HMRC tax products are either open-sourced on GitHub or in t
 
 The simplest explaination is we want to be transparent about what we are spending the UK tax payer's money on. Our manifesto is, "The MDTP has been paid for by the UK public so they should have it available to them if they want". 
 
-Hopefully the artefacts that we are producing are of use to other projects but at worse the repositories will provide real world examples like how to use [Play](https://playframework.com/) or interact with [MongoDB](https://www.mongodb.org/) using [ReactiveMongo](http://reactivemongo.org/). Of course if you think there is a better way of doing something then submit a pull request or raise an issue but don't send a letter, we don't like paper, we are (Digital by default)[https://www.gov.uk/service-manual/start] after all.
+Hopefully the artefacts that we are producing are of use to other projects but at worse the repositories will provide real world examples like how to use [Play](https://playframework.com/) or interact with [MongoDB](https://www.mongodb.org/) using [ReactiveMongo](http://reactivemongo.org/). Of course if you think there is a better way of doing something then submit a pull request or raise an issue but don't send a letter, we don't like paper, we are [Digital by default](https://www.gov.uk/service-manual/start) after all.
 
 ## Developer Documentation
 
