@@ -17,3 +17,42 @@
     padding: 0 30px 2em 30px;
   }
 }
+
+@media (min-width: 641px) {
+    .page-wrapper {
+      float: none;
+      width: 70%;
+      margin: 0 auto;
+  }  
+}
+
+body {
+  font-family: HelveticaNeue;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Oswald';
+}
+
+.inner {
+  display: block; 
+  margin: 0 auto;
+  width: 80%;
+}
+
+h1#project_title {
+  font-size: 3em;
+  line-height: 2em;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: olive;
+}
+
+a:hover {
+  border-bottom: 1px dotted olive;
+}
+
+

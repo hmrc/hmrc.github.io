@@ -3,4 +3,4 @@ defaults:
     scope:
       path: ""
     values:
-      layout: govuk_template
+      layout: default
