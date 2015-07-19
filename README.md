@@ -25,4 +25,4 @@ Information about the HMRC GitHub organisation, repositories and approaches to s
 * Create/edit `.md` files in the root of the repo
 * Directory structure gets turned into urls
 	* i.e. `/foo/bar/index.md` becomes `localhost:4000/foo/bar`
-* Take a look at [how the styling works](/how-the-styling-works.html) to get an idea of how to style your page.
+* Take a look at [how the styling works](https://hmrc.github.io/how-the-styling-works.html) to get an idea of how to style your page.
