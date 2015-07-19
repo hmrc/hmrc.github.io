@@ -1,6 +1,6 @@
 defaults:
   -
     scope:
-      path: ""
+      paht: ""
     values:
-      layout: default
+      layout: govuk_template
