@@ -5,8 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="description" content="Hmrc.GitHub.io : Information about the HMRC GitHub organisation, repositories and approaches to software">
 
-    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-
     <link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/stylesheet.css">
 
     <title>HMRC.GitHub.io</title>
@@ -14,17 +12,17 @@
 
   <body>
     <div class="page-wrapper">
+    
+        {% include header.html %}
 
-    {% include header.html %}
+        <!-- MAIN CONTENT -->
+        <div id="main_content_wrap" class="outer">
+          <section id="main_content" class="inner">
+            {{ content }}
+          </section>
+        </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        {{ content }}
-      </section>
+        {% include footer.html %}
     </div>
-
-      {% include footer.html %}
-    </div> <!-- page wrapper ends -->
   </body>
 </html>

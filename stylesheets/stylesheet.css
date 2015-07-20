@@ -13,22 +13,16 @@
 }
 
 @media (min-width: 641px) {
-    #content {
-        padding: 0 30px 2em 30px;
-            }
-}
-
-@media (min-width: 641px) {
-      .page-wrapper {
-        float: none;
-        width: 70%;
-        margin: 0 auto;
-           }  
+    .page-wrapper {
+      float: none;
+      width: 70%;
+      margin: 0 auto;
+      }  
 }
 
 body {
     font-family: HelveticaNeue;
-    background-color:  whitesmoke;
+    background-color: #FDFDF4 /*whitesmoke*/;
 }
 
 h1, h2, h3, h4 {
