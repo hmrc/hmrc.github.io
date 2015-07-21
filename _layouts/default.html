@@ -7,19 +7,22 @@
 
     <link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/stylesheet.css">
 
-    <title>Hmrc.GitHub.io</title>
+    <title>HMRC.GitHub.io</title>
   </head>
 
   <body>
-    {% include header.html %}
+    <div class="page-wrapper">
+    
+        {% include header.html %}
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        {{ content }}
-      </section>
+        <!-- MAIN CONTENT -->
+        <div id="main_content_wrap" class="outer">
+          <section id="main_content" class="inner">
+            {{ content }}
+          </section>
+        </div>
+
+        {% include footer.html %}
     </div>
-
-    {% include footer.html %}
   </body>
 </html>
