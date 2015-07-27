@@ -31,13 +31,14 @@ Ask a Platform Lead to do this for you. When complete check the packages exist u
 Builds on ci-open are automatically generated.
 
 + Checkout the [jenkins-jobs](https://github.com/hmrc/jenkins-jobs/) repository
-+ Add a build description to the [mdtp.grovy](https://github.com/hmrc/jenkins-jobs/blob/master/jobs/mdtp.groovy) file:
++ Add a build description to the relevant product jobs file e.g. [mdtp.groovy](https://github.com/hmrc/jenkins-jobs/blob/master/jobs/mdtp.groovy) for an MDTP-wide library:
 
 ```new SbtLibraryJobBuilder('project_name').
                          build(this as DslFactory)
 ```
 
-+ push or submit a pull-request for this change.
++ Push or submit a pull request for this change.
++ Re-seed ci-open Jenkins using the `Seed Jenkins` job
 
 ### 5. Create a build in Travis
 
