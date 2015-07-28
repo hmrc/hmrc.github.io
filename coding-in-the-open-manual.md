@@ -103,7 +103,9 @@ There is an internal HMRC document called "Migrating To Building For The Open" t
 
 ### Artifacts In The Open
 
-TODO
+All our Release Candidates and Releases are hosted at [HMRC on Bintray](https://www.bintray.com/hmrc). 
+
+Once an artifact has been built on Jenkins, it is automatically published to Bintray. This is restricted to Jenkins to protect our Bintray and PGP keys. For SBT repositories our publishing plugin [sbt-bintray-publish](https://www.github.com/hmrc/sbt-bintray-publish) is automatically run on Jenkins as a global SBT auto plugin, which means you do not have configure any Bintray publishing code.
 
 ### Internal Documentation
 
