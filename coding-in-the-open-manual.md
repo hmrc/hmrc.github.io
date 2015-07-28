@@ -23,8 +23,6 @@ Of course if you think there is a better way of doing something then submit a pu
 
 HMRC is a [GitHub.com public organisation](https://www.github.com/hmrc). The expectation is that every source code repository - a library, a frontend, a service - will be open-sourced on GitHub.com. When a repository contains security-critical code and/or configuration it is refactored to be as small a component as possible, with the non-critical majority open-sourced as a separate repository.
 
-There is an internal HMRC document called "Source Code In The Open" that describes how to migrate an internal source code repository to GitHub.com, and the procedure for fixing security issues in a GitHub.com repository.
-
 ### Building For The Open
 
 Our build approach aims to be fully aligned with the principles and practices of [Continuous Delivery](http://www.continuousdelivery.com) and as transparent as possible to the British taxpayer. In terms of day-to-day MDTP operations we have a number of aims:
@@ -101,6 +99,15 @@ Consider Alice working on [domain](https://github.com/hmrc/domain). The most rec
     4. `#cbcdefg` is the first commit since Release `1.3.0` on branch `1.3.0-hotfix`, so Release Candidate `1.3.0-1-gdbcdefg`
     5. Alice releases Release Candidate `1.3.0-1-gdbcdefg` as a hotfix version via [Releaser](https://www.github.com/hmrc/releaser), which creates Release `1.3.1`
 
+There is an internal HMRC document called "Migrating To Building For The Open" that describes how to migrate an internal build to GitHub.com.
+
 ### Artifacts In The Open
 
 TODO
+
+### Internal Documentation
+
+This documentation is supplemented by the following internal HMRC documentation:
+
+1. "Migrating To Coding In The Open" - how to migrate the code, builds, and artifacts of a source code repository into the open
+1. "Security Fixes In The Open" - how to mitigate a security fix in an open-source repository
