@@ -3,28 +3,22 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Hmrc.GitHub.io : Information about the HMRC GitHub organisation, repositories and approaches to software">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/stylesheet.css">
-    <link href='http://fonts.googleapis.com/css?family=Oxygen:300' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
-    
+    <link rel="stylesheet" href="/stylesheets/main.css">
+
     <title>HMRC.GitHub.io</title>
   </head>
 
-  <body>
-    <div class="page-wrapper">
-    
-        {% include header.html %}
+  <body class="pure-g">
+    {% include header.html %}
 
-        <!-- MAIN CONTENT -->
-        <div id="main_content_wrap" class="outer">
-          <section id="main_content" class="inner">
-            {{ content }}
-          </section>
-        </div>
+    <!-- MAIN CONTENT -->
+    <section class="main_content center pure-u-3-5">
+      {{ content }}
+    </section>
 
-        {% include footer.html %}
-    </div>
+    {% include footer.html %}
   </body>
 </html>

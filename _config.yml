@@ -4,3 +4,5 @@ defaults:
       paht: ""
     values:
       layout: default
+sass:
+    sass_dir: _scss
