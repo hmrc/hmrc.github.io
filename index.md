@@ -18,3 +18,4 @@ You can read our Coding In The Open Manual here: [Coding In The Open Manual](/co
 ## Developer Documentation
 
 + [Steps for adding a new Scala library to github.com](/adding-a-new-scala-library-to-github.html)
++ [Requirements for commiters](/requirements-for-commiters.html)
