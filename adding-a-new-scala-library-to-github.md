@@ -4,7 +4,7 @@
 ## Steps for adding a new Scala library to github.com
 
 After these steps you will have an SBT project in github.com that contains everything you need to build and release
-using HRMC's coding-in-the-open systems.
+using HMRC's coding-in-the-open systems.
 
 Notes
 
