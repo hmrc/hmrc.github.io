@@ -23,7 +23,7 @@ Hopefully the repositories that we produce are of use to other Open Source proje
 
 HMRC is a [GitHub.com public organisation](https://www.github.com/hmrc). The expectation is that every source code repository - a library, a frontend, a service - will be open-sourced on GitHub.com. When a repository contains security-critical code and/or configuration it is refactored to be as small a component as possible, with the non-critical majority open-sourced as a separate repository.
 
-The HMRC on GitHub organisation is composed of delivery teams currently working within HMRC on MDTP infrastructure and services. The ['Iron Man' improved permissions model](https://github.com/orgs/improved-permissions) is used so that the organisation is managed centrally,  delivery teams are managed by delivery team leads, and repositories are managed by delivery teams.
+The HMRC on GitHub organisation is composed of delivery teams currently working within HMRC on MDTP infrastructure and services. The ['Iron Man' improved permissions model](https://github.com/orgs/improved-permissions) is used so that the organisation is managed centrally,  delivery teams are managed by delivery team leads, and repositories are managed by delivery team members.
 
 
 #### Supplementary Documentation
