@@ -23,6 +23,8 @@ Of course if you think there is a better way of doing something then submit a pu
 
 HMRC is a [GitHub.com public organisation](https://www.github.com/hmrc). The expectation is that every source code repository - a library, a frontend, a service - will be open-sourced on GitHub.com. When a repository contains security-critical code and/or configuration it is refactored to be as small a component as possible, with the non-critical majority open-sourced as a separate repository.
 
+The HMRC on GitHub organisation is composed of delivery teams currently working within HMRC on MDTP infrastructure and services. The ['Iron Man' improved permissions model](https://github.com/orgs/improved-permissions) is used so that new organisation membership is managed centrally and delivery team membership is devolved to delivery team leads. 
+
 ### Building For The Open
 
 Our build approach aims to be fully aligned with the principles and practices of [Continuous Delivery](http://www.continuousdelivery.com) and as transparent as possible to the British taxpayer. In terms of day-to-day MDTP operations we have a number of aims:
@@ -111,5 +113,6 @@ Once an artifact has been built on Jenkins, it is automatically published to Bin
 
 This documentation is supplemented by the following internal HMRC documentation:
 
+1. "Joining HMRC on GitHub" - describes how to apply to join HMRC on GitHub
 1. "Migrating To Coding In The Open" - how to migrate the code, builds, and artifacts of a source code repository into the open
-1. "Security Fixes In The Open" - how to mitigate a security fix in an open-source repository
+1. "Security In The Open" - how to mitigate a security fix in an open-source repository
