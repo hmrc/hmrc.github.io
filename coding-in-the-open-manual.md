@@ -30,7 +30,7 @@ The HMRC on GitHub organisation is composed of delivery teams currently working 
 
 The following internal HMRC documentation is supplementary:
 
-1. "Working In The Open" - describes how to join HMRC on GitHub
+1. "HMRC on GitHub" - describes how to join HMRC on GitHub
 1. "Migrating To Coding In The Open" - how to migrate the code, builds, and artifacts of a source code repository into the open
 1. "Security In The Open" - how to mitigate security issues
 
