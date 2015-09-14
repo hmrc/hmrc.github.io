@@ -17,13 +17,22 @@ At HMRC, we want to be transparent about what we are spending money on. Our mani
 
 Hopefully the repositories that we produce are of use to other Open Source projects, but at worst they will provide real world examples of using the [Play Framework](https://playframework.com/), interacting with [MongoDB](https://www.mongodb.org/) using [ReactiveMongo](http://reactivemongo.org/), etc.
 
-Of course if you think there is a better way of doing something then submit a pull request or raise an issue - but don't send a letter, we are [Digital By Default](https://www.gov.uk/service-manual/start) after all!
+> Of course if you think there is a better way of doing something then submit a pull request or raise an issue - but don't send a letter, we are [Digital By Default](https://www.gov.uk/service-manual/start) after all!
 
 ### Source Code In The Open
 
 HMRC is a [GitHub.com public organisation](https://www.github.com/hmrc). The expectation is that every source code repository - a library, a frontend, a service - will be open-sourced on GitHub.com. When a repository contains security-critical code and/or configuration it is refactored to be as small a component as possible, with the non-critical majority open-sourced as a separate repository.
 
-The HMRC on GitHub organisation is composed of delivery teams currently working within HMRC on MDTP infrastructure and services. The ['Iron Man' improved permissions model](https://github.com/orgs/improved-permissions) is used so that new organisation membership is managed centrally and delivery team membership is devolved to delivery team leads. 
+The HMRC on GitHub organisation is composed of delivery teams currently working within HMRC on MDTP infrastructure and services. The ['Iron Man' improved permissions model](https://github.com/orgs/improved-permissions) is used so that the organisation is managed centrally,  delivery teams are managed by delivery team leads, and repositories are managed by delivery teams.
+
+
+#### Supplementary Documentation
+
+The following internal HMRC documentation is supplementary:
+
+1. "Working In The Open" - describes how to join HMRC on GitHub
+1. "Migrating To Coding In The Open" - how to migrate the code, builds, and artifacts of a source code repository into the open
+1. "Security In The Open" - how to mitigate security issues
 
 ### Building For The Open
 
@@ -105,14 +114,6 @@ There is an internal HMRC document called "Migrating To Building For The Open" t
 
 ### Artifacts In The Open
 
-All our Release Candidates and Releases are hosted at [HMRC on Bintray](https://www.bintray.com/hmrc). 
+All Release Candidates and Releases are hosted at [HMRC on Bintray](https://www.bintray.com/hmrc). 
 
-Once an artifact has been built on Jenkins, it is automatically published to Bintray. This is restricted to Jenkins to protect our Bintray and PGP keys. For SBT repositories our publishing plugin [sbt-bintray-publish](https://www.github.com/hmrc/sbt-bintray-publish) is automatically run on Jenkins as a global SBT auto plugin, which means you do not have configure any Bintray publishing code.
-
-### Internal Documentation
-
-This documentation is supplemented by the following internal HMRC documentation:
-
-1. "Joining HMRC on GitHub" - describes how to apply to join HMRC on GitHub
-1. "Migrating To Coding In The Open" - how to migrate the code, builds, and artifacts of a source code repository into the open
-1. "Security In The Open" - how to mitigate a security fix in an open-source repository
+Once an artifact has been built on Jenkins, it is automatically published to Bintray. This is restricted to Jenkins to protect the Bintray and PGP keys. For SBT repositories [sbt-bintray-publish](https://www.github.com/hmrc/sbt-bintray-publish) is automatically run on Jenkins as a global SBT auto plugin, which means you do not have configure any Bintray publishing code.
