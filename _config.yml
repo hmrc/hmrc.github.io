@@ -6,3 +6,9 @@ defaults:
       layout: default
 sass:
     sass_dir: _scss
+
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md

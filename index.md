@@ -1,4 +1,6 @@
 ---
+layout: home
+title: HMRC on GitHub
 ---
 
 ## Welcome
@@ -18,6 +20,5 @@ You can read our Coding In The Open Manual here: [Coding In The Open Manual](/co
 ## Developer Documentation
 
 + [How To: Release a new version of your library](/howto-release-new-version-of-your-library.html)
-
 + [Steps for adding a new Scala library to github.com](/adding-a-new-scala-library-to-github.html)
 + [Requirements for commiters](/requirements-for-commiters.html)
