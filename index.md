@@ -19,5 +19,6 @@ You can read our Coding In The Open Manual here: [Coding In The Open Manual](/pa
 ## Developer Documentation
 
 + [How To: Release a new version of your library](/pages/howto-release-new-version-of-your-library.html)
++ [How To: Create a new repository](/pages/creating-a-new-repository.html)
 + [Steps for adding a new Scala library to github.com](/pages/adding-a-new-scala-library-to-github.html)
 + [Requirements for commiters](/pages/requirements-for-commiters.html)
