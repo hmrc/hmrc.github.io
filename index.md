@@ -1,4 +1,5 @@
 ---
+layout: home
 ---
 
 ## Welcome
@@ -13,11 +14,11 @@ The Multichannel Digital Tax Platform (MDTP) gives access to digital tax product
 
 HMRC has a firm commitment to **Coding In The Open** - developing, testing, building, and releasing code in such a way that the British taxpayer can observe and contribute to progress.
 
-You can read our Coding In The Open Manual here: [Coding In The Open Manual](/coding-in-the-open-manual.html)
+You can read our Coding In The Open Manual here: [Coding In The Open Manual](/pages/coding-in-the-open-manual.html)
 
 ## Developer Documentation
 
-+ [How To: Release a new version of your library](/howto-release-new-version-of-your-library.html)
-+ [How To: Create a new repository](/creating-a-new-repository.html)
-+ [Steps for adding a new Scala library to github.com](/adding-a-new-scala-library-to-github.html)
-+ [Requirements for commiters](/requirements-for-commiters.html)
++ [How To: Release a new version of your library](/pages/howto-release-new-version-of-your-library.html)
++ [How To: Create a new repository](/pages/creating-a-new-repository.html)
++ [Steps for adding a new Scala library to github.com](/pages/adding-a-new-scala-library-to-github.html)
++ [Requirements for commiters](/pages/requirements-for-commiters.html)
