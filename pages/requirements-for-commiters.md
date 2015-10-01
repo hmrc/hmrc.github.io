@@ -1,7 +1,7 @@
 ---
+title: Requirements for committers
+layout: page
 ---
-
-## Requirements For Commiters
 
 > This document is a work-in-progress that is being updated as we put more code in the open.
 
@@ -16,7 +16,3 @@ The general principle is that code should be written in such a way that perclude
 
 - Services will have sensitive strings injected upon deployment; it is not ncecessary for the code repository to contain any senstive stirngs
 - Scripts and stand-alone apps obtain sensitive strings by reading them from a file *outside* of the project. The typical convention for this is to add a hidden 'dot' directory in the users' home directory and a file(s) inside that contains the credentials. [An example of this in our releaser app](https://github.com/hmrc/releaser/blob/2cb97a5832d7a9e7d744c5397d358f4ada549d1f/src/main/scala/uk/gov/hmrc/releaser/Releaser.scala#L93-L97)
-
-
-
-
