@@ -1,7 +1,7 @@
 ---
+title: Making a release from github.com/hmrc
+layout: page
 ---
-
-## Making a release from github.com/hmrc
 
 1. Ensure all the changes you need for your release have been merged to master. HMRC coding in the open projects do not use git/github flow or any continuous integration strategy in order to keep things nice and simple.
 2. There's no need to tag your release, the jenkins server at ci-open will pick up your changes and publish a *release candidate* to bintray

@@ -62,7 +62,7 @@ h1 {
 }
 
 #home .post {
-  width: 220px;
+  width: 300px;
   float: left;
   vertical-align: top;
   margin: 0 20px 0 0;
@@ -355,14 +355,17 @@ article {
 
 .wrapper-footer {
   margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
   background-color: $lightGray;
 }
 
 footer {
-  padding: 20px 0;
+  padding: 10px 0;
   text-align: center;
+}
+
+header {
+  background-color: $lightGray;
+  padding: 10px 5px;
 }
 
 
