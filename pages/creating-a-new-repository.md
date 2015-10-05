@@ -1,7 +1,8 @@
 ---
+title: Creating a new repository
+layout: page
 ---
 
-## Creating a New Repository
 The process of creating a new repository is automated and peformed through a job in Jenkins which uses [init-repository](https://github.com/hmrc/init-repository).
 
 init-repository currently performs the following tasks:
