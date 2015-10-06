@@ -43,8 +43,8 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.4;
   }
 }
-  
-h1 {  
+
+h1 {
   font-size: 60px;
   margin: 30px 0;
   a {
@@ -99,17 +99,17 @@ h1 {
   }
 }
 
-h2 {  
+h2 {
   font-size: 24px;
   margin: 48px 0 12px;
 }
 
-h3 {  
+h3 {
   font-size: 20px;
   margin: 40px 0 10px;
 }
 
-h4 {  
+h4 {
   font-size: 18px;
   color: $gray;
   margin: 36px 0 9px;
@@ -256,7 +256,7 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue; 
+  font-family: $helveticaNeue;
   font-weight: 300;
   font-size: 28px;
 }
@@ -265,7 +265,7 @@ img {
   margin: -5px 0 0 0;
   font-size: 14px;
   font-family: $helveticaNeue;
-  
+
   @include mobile {
     margin: 3px 0;
   }
@@ -274,9 +274,9 @@ img {
 nav {
   float: right;
   margin-top: 23px;
-  font-family: $helveticaNeue; 
+  font-family: $helveticaNeue;
   font-size: 12px;
-  
+
   @include mobile {
     float: none;
     margin-top: 9px;
@@ -307,7 +307,11 @@ article {
   }
 }
 
-.post { 
+dd {
+  margin-bottom: 1.5em;
+}
+
+.post {
   blockquote {
     margin: 1.8em .8em;
     border-left: 1px dotted $gray;
