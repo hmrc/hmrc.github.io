@@ -1,15 +1,25 @@
 ---
 layout: default
 ---
+
+<div class="main-heading">
+  <img src="/images/hmrc_crest_200px.svg"/>
+  <h1>HMRC on GitHub</h1>
+</div>
+
 {{ content }}
 
-<h2>Developer Documentation</h2>
-<ul>
-  {% for post in site.pages | sort: "url"  %}
-    {% if post.layout == "page" %}
-      <li>
-        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-      </li>
-    {% endif %}
-  {% endfor %}
-</ul>
+{% for category in site.category-list  %}
+    <h2>{{category}}</h2>
+    <ul>
+    {% for post in site.pages | sort: "url"  %}
+      {% if post.category == category %}
+        {% if post.layout == "page" %}
+          <li>
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+          </li>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+    </ul>
+{% endfor %}

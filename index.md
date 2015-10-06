@@ -2,8 +2,6 @@
 layout: home
 ---
 
-#HMRC on GitHub
-
 ## Welcome
 
 Welcome to Her Majesty's Revenue and Customs (HMRC) on [GitHub](https://github.com/hmrc). Here you can learn about the HMRC Multichannel Digital Tax Platform (MDTP), the citizen and company digital tax services hosted on the MDTP, and the Agile principles and practices that underpin our delivery of the MDTP.

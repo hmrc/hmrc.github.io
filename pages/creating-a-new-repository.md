@@ -1,6 +1,7 @@
 ---
 title: Creating a new repository
 layout: page
+category: Development Documentation
 ---
 
 ## Creating a New Repository

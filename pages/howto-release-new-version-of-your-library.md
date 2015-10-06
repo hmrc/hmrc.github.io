@@ -1,6 +1,7 @@
 ---
 title: Making a release from github.com/hmrc
 layout: page
+category: Development Documentation
 ---
 
 1. Ensure all the changes you need for your release have been merged to master. HMRC coding in the open projects do not use git/github flow or any continuous integration strategy in order to keep things nice and simple.

@@ -1,6 +1,7 @@
 ---
 title: How the styling works
 layout: page
+category: Development Documentation
 ---
 
 Given that we are using [github pages](https://pages.github.com) to publish this blog each post is generated from [markdown](https://pages.github.com). That gives us limited scope for altering the style of each page as we won't in general be adding in html to style particular elements.

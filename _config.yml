@@ -8,3 +8,6 @@ exclude:
     - Gemfile.lock
     - LICENSE
     - README.md
+
+category-list: 
+    - Development Documentation

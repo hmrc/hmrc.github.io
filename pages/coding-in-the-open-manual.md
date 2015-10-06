@@ -1,6 +1,7 @@
 ---
 title: Coding in the open
 layout: page
+category: Development Documentation
 ---
 
 The digital services hosted on the MDTP are developed according to the [Government Digital Service (GDS)](https://gds.blog.gov.uk/about/) [Service Manual](https://www.gov.uk/service-manual) and [Digital Service Standards](https://www.gov.uk/service-manual/digital-by-default). In the GDS Digital Service Standards, Point 8 says:
