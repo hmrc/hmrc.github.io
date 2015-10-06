@@ -16,13 +16,22 @@ Information about the HMRC GitHub organisation, repositories and approaches to s
 ### Running locally
 
 * Clone this repo
-* Run`bundle install`
+* Run `bundle install`
 * Run `bundle exec jekyll serve`
 * Open a browser at [http://localhost:4000](http://localhost:4000)
 
 ## Making changes
 
-* Create/edit `.md` files in the root of the repo
+* Create/edit `.md` files in the `/pages/` folder
 * Directory structure gets turned into urls
-	* i.e. `/foo/bar/index.md` becomes `localhost:4000/foo/bar`
-* Take a look at [how the styling works](https://hmrc.github.io/how-the-styling-works.html) to get an idea of how to style your page.
+	* i.e. `/pages/foo/bar/index.md` becomes `localhost:4000/pages/foo/bar`
+* Take a look at [how the styling works](https://hmrc.github.io/pages/how-the-styling-works.html) to get an idea of how to style your page.
+* Make sure to include a title, set the layout to **page**, and set the category to one that exists in the category-list in _config.yml, at the top of each page like so:
+```
+---
+title: Adding a new Scala library to GitHub
+layout: page
+category: Development Documentation
+---
+```
+

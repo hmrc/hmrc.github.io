@@ -1,6 +1,7 @@
 ---
 title: Adding a new Scala library to GitHub
 layout: page
+category: Development Documentation
 ---
 
 After these steps you will have an SBT project in github.com that contains everything you need to build and release

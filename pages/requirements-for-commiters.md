@@ -1,6 +1,7 @@
 ---
 title: Requirements for committers
 layout: page
+category: Development Documentation
 ---
 
 > This document is a work-in-progress that is being updated as we put more code in the open.
