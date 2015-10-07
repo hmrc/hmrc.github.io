@@ -1,7 +1,5 @@
 name: HMRC on GitHub
 
-permalink: /:title/
-
 sass:
     sass_dir: _scss
 
@@ -13,4 +11,3 @@ exclude:
 
 category-list: 
     - Development Documentation
-    - The HMRC Tax Platform

@@ -1,6 +1,6 @@
 ---
 title: Requirements for committers
-layout: post
+layout: page
 category: Development Documentation
 ---
 

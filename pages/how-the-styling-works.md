@@ -1,6 +1,6 @@
 ---
 title: How the styling works
-layout: post
+layout: page
 category: Development Documentation
 ---
 

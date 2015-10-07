@@ -1,6 +1,6 @@
 ---
 title: Coding in the open
-layout: post
+layout: page
 category: Development Documentation
 ---
 

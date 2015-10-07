@@ -14,4 +14,4 @@ The Multichannel Digital Tax Platform (MDTP) gives access to digital tax product
 
 HMRC has a firm commitment to **Coding In The Open** - developing, testing, building, and releasing code in such a way that the British taxpayer can observe and contribute to progress.
 
-You can read our Coding In The Open Manual here: [Coding In The Open Manual](/coding-in-the-open-manual)
+You can read our Coding In The Open Manual here: [Coding In The Open Manual](/pages/coding-in-the-open-manual.html)

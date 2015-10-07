@@ -1,6 +1,6 @@
 ---
 title: Making a release from github.com/hmrc
-layout: post
+layout: page
 category: Development Documentation
 ---
 

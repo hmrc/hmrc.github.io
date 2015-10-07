@@ -1,7 +1,6 @@
 ---
 title: Service Catalogue
-layout: post
-category: Development Documentation
+layout: page
 ---
 
 {% if jekyll.environment == 'development' %}

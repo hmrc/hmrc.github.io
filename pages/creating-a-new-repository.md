@@ -1,6 +1,6 @@
 ---
 title: Creating a new repository
-layout: post
+layout: page
 category: Development Documentation
 ---
 
