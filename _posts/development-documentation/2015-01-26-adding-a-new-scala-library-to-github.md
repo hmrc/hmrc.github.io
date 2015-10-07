@@ -1,6 +1,6 @@
 ---
 title: Adding a new Scala library to GitHub
-layout: page
+layout: post
 category: Development Documentation
 ---
 
