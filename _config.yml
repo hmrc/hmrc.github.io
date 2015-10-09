@@ -11,6 +11,5 @@ exclude:
     - LICENSE
     - README.md
 
-category-list: 
+category-list:
     - Development Documentation
-    - The HMRC Tax Platform
