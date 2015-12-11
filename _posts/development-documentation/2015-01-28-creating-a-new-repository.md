@@ -13,7 +13,7 @@ init-repository currently performs the following tasks:
 - Creates bintray packages
 
 ###Steps
-1. Go to the 'create-a-release' job in Jenkins Open
+1. Go to the 'create-a-repository' job in Jenkins Open
 2. Enter the name of your new repository and the team to which it will belong. The team must be the exact text that apepars on [the teams page](https://github.com/orgs/hmrc/teams) (login required)
 3. Run the job
 
