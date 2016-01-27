@@ -14,3 +14,5 @@ category: Development Documentation
   ![Create a release parameters example](/images/howto-create-release/create-a-release.png)<br><br>
 4. Click build, and then if all goes well your new version should now be available to the world. Jenkins will also tag your repository for you with some useful information about the release.
   ![Latest release](/images/howto-create-release/latest-release.png)<br>
+
+The above steps are identical for releasing a microservice or a frontend.
