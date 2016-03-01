@@ -14,7 +14,8 @@ init-repository currently performs the following tasks:
 
 ###Steps
 1. Go to the 'create-a-repository' job in Jenkins Open
-2. Enter the name of your new repository and the team to which it will belong. The team must be the exact text that apepars on [the teams page](https://github.com/orgs/hmrc/teams) (login required)
+2. Click on "Build with Parameters" link
+2. Enter the name of your new repository and the team to which it will belong. The team must be the exact text that appears on [the teams page](https://github.com/orgs/hmrc/teams) (login required)
 3. Run the job
 
 ###Result
@@ -25,7 +26,7 @@ init-repository currently performs the following tasks:
 - README.md containing badges for Bintray and Travis
 
 ###Next Steps
-- Ask a platform lead to enable your job in Travis
+- Ask Platform Operations Team to enable your job in Travis
 - Add a Jenkins Open job for your new repository in [https://github.com/hmrc/jenkins-jobs](https://github.com/hmrc/jenkins-jobs) and re-seed Jenkins Open
 - Add some useful information about your new repository to the readme
 - If your repository is a library add the following to the end of the README, updating <ARTEFACT-NAME> with the name of your artifact (NOTE: leave the text '[INSERT-VERSION]' in the README, the actual version will show on the Bintray badge):
