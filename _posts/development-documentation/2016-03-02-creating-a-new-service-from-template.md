@@ -12,7 +12,7 @@ init-service currently performs the following tasks:
 - Creates a new basic service/frontend/stub project based on the Coding In The Open guidelines. 
 
 
-###Steps
+### Steps
 follow the steps as described in [README.md](https://github.com/hmrc/init-service/blob/master/README.md).
     
     
