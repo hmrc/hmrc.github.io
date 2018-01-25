@@ -12,20 +12,20 @@ init-repository currently performs the following tasks:
 - Creates a new [github.com/hmrc](https://github.com/hmrc) repositiory and gives write access to a given team
 - Creates bintray packages
 
-###Steps
+### Steps
 1. Go to the 'create-a-repository' job in Jenkins Open
 2. Click on "Build with Parameters" link
 2. Enter the name of your new repository and the team to which it will belong. The team must be the exact text that appears on [the teams page](https://github.com/orgs/hmrc/teams) (login required)
 3. Run the job
 
-###Result
+### Result
 - A git tag of version v0.1.0
 - [https://bintray.com/hmrc/](Bintray.com) releases and release-candidates packages 
 - .gitignore
 - .travis.yml
 - README.md containing badges for Bintray and Travis
 
-###Next Steps
+### Next Steps
 - Your job should be automatically enabled on Travis. If not, please contact Platform Operations for assistance
 - Add a Jenkins Open job for your new repository in [https://github.com/hmrc/jenkins-jobs](https://github.com/hmrc/jenkins-jobs) and re-seed Jenkins Open
 - Add some useful information about your new repository to the readme
