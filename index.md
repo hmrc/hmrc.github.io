@@ -8,7 +8,7 @@ Welcome to Her Majesty's Revenue and Customs (HMRC) on [GitHub](https://github.c
 
 ## The Multichannel Digital Tax Platform (MDTP)
 
-The Multichannel Digital Tax Platform (MDTP) gives access to digital tax products that allow British citizens and companies to manage their tax affairs. The MDTP is a [Platform As A Service (PaaS)](https://en.wikipedia.org/wiki/Platform_as_a_service) that hosts 100+ [Scala](http://www.scala-lang.org/)/[Play](https://www.playframework.com/) microservices that represent 20+ citizen and company tax products.
+The Multichannel Digital Tax Platform (MDTP) gives access to digital tax products that allow British citizens and companies to manage their tax affairs. The MDTP is a [Platform As A Service (PaaS)](https://en.wikipedia.org/wiki/Platform_as_a_service) that hosts 500+ [Scala](http://www.scala-lang.org/)/[Play](https://www.playframework.com/) microservices that represent 50+ citizen and company tax products.
 
 ## Coding In The Open
 

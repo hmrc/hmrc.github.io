@@ -8,7 +8,7 @@ The digital services hosted on the MDTP are developed according to the [Governme
 
 > "Make all new source code open and reusable, and publish it under appropriate licences (or provide a convincing explanation as to why this cannot be done for specific subsets of the source code)"
 
-At HMRC, we are making all new source code open and reusable at [HMRC on GitHub](https://www.github.com/hmrc) and publishing it under the [Apache 2 License](https://www.apache.org/licenses/LICENSE-2.0). We are also providing a view of our continuous build system at [HMRC on Travis](https://travis-ci.org/hmrc/), and publishing our artifacts at [HMRC on Bintray](https://www.bintray.com/hmrc)
+At HMRC, we are making all new source code open and reusable at [HMRC on GitHub](https://www.github.com/hmrc) and publishing it under the [Apache 2 License](https://www.apache.org/licenses/LICENSE-2.0). We are also publishing our libraries at [HMRC on Bintray](https://www.bintray.com/hmrc)
 
 Security-critical configuration and/or code may remain within internal HMRC systems, but the vast majority of MDTP digital services are either open-sourced or in the process of being open-sourced. 
 
@@ -50,32 +50,21 @@ Our build approach should be described as Building *For* The Open not Building *
 - A public cloud-based build system would need our access key for publishing artifacts to a cloud-based artifact repository - this is deemed an unacceptable security risk
 - A public cloud-based build system would download third party dependencies from the Internet without a virus scan - this is deemed an unacceptable security risk
 
-We still want to provide build transparency to the British taxpayer, and for that reason we have the concept of a Continuous View via [HMRC on Travis](http://www.travis-ci.org/hmrc) and an internal Continuous Build via [Jenkins Jobs](https://www.github.com/hmrc/jenkins-jobs). Each library, frontend, and service will have a public Travis job for compilation and testing, and an internal Jenkins job for compiling, testing, packaging, and publishing changes. 
-
-The following diagram is a logical representation of our Building For The Open architecture.
-
-![Building For The Open](/images/building-for-the-open.png)
+We use an internal Jenkins job for compiling, testing, packaging, and publishing changes. 
 
 #### Release Candidates
 
-These are uniquely versioned artifacts sourced from `master` via [GitHub Flow](https://guides.github.com/introduction/flow/index.html), and intended for development usage. Release candidate versioning is derived from [Semantic Versioning](http://www.semver.org/) and is as follows:
+These are artifacts intended for development usage. Release candidate versioning is derived from [Semantic Versioning](http://www.semver.org/) and is as follows:
 
-    <most recent Release>-<commits since most recent Release>-g<commit hash>
-
-For Release Candidates that are built from the same commit as a Release the version will be:
-
-    <most recent Release>-0-g0000000
-
-An implementation of this strategy must adopt the following rules:
-
-1. Call `git describe`
-1. If the result is not a tag with a `v` prefix then fail
-1. If the result is a tag with no commits append `-0-g0000000` e.g. `v1.1.0` -> `v1.1.0-0-g00000000`
-1. Strip the `v` prefix
+    <latest-major>.<latest-minor +1>.0-SNAPSHOT
 
 The following repositories are technology-specific implementations of the HMRC versioning strategy:
 
-- sbt: [sbt-git-versioning](https://github.com/hmrc/sbt-git-versioning) and [sbt-git-stamp](https://github.com/hmrc/sbt-git-stamp)
+- sbt: [sbt-git-versioning](https://github.com/hmrc/sbt-git-versioning), [sbt-git-stamp](https://github.com/hmrc/sbt-git-stamp) and [release-versioning](https://github.com/hmrc/release-versioning)
+
+An increment of the major version is controlled in the build.sbt file and read by sbt-git-versioning. If the majorVersion is increased, the version will be
+
+    <next-major>.0.0-SNAPSHOT
 
 #### Releases
 
@@ -83,38 +72,34 @@ These are uniquely versioned artifacts sourced from a Release Candidate via [Rel
 
     <major version>.<minor version>.<hotfix version>
 
-Releaser transforms Release Candidates into Releases on the fly, and automatically tags the GitHub repository upon success `jenkins - 1.0.0 tagged from #abcd by alice on 23 Mar 15`. 
+Our internal jenkins job automatically tags the GitHub repository upon success `jenkins - 1.0.0 tagged by alice on 23 Mar 15`. 
 
 #### Example
 
 Consider Alice working on [domain](https://github.com/hmrc/domain). The most recent Release to production was `1.1.0` and she wants to release commits `#abcdefg`, `#bbcdefg`, `#bbcdefh`, `#bbcdefi`, `#cbcdefg`, and `#dbcdefg` yielding a minor version, a minor version, a major version, and a hotfix version.
 
 1. `#abcdefg` -> `1.2.0`
-    1. Alice starts development on master from `1.1.0` (Release Candidate `1.1.0-0-g0000000`)
+    1. Alice starts development on master from `1.1.0` (Release Candidate `1.2.0-SNAPSHOT`)
     2. Alice tests and commits `#abcdefg` and pushes to master
-    3. `#abcdefg` is the first commit since Release `1.1.0`. so Release Candidate `1.1.0-1-gabcdefg` is created
-    4. Alice releases Release Candidate `1.1.0-1-gabcdefg` as a minor version via [Releaser](https://www.github.com/hmrc/releaser), which creates Release `1.2.0`
+    3. The internal build job compiles, tests and releases a minor version: `1.2.0`
 1. `#bbcdefg` -> `1.3.0`
-    1. Alice starts development on master from `1.2.0` (Release Candidate `1.2.0-0-g0000000`)
+    1. Alice starts development on master from `1.2.0` (Release Candidate `1.3.0-SNAPSHOT`)
     2. Alice tests and commits `#bbcdefg`, `#bbcdefh`, `#bbcdefi`, and pushes to master
-    3. There have been 3 commits since Release `1.2.0`, so Release Candidate `1.2.0-3-gbbcdefi` is created
-    4. Alice releases Release Candidate `1.2.0-3-gbbcdefi` as a minor version via [Releaser](https://www.github.com/hmrc/releaser), which creates Release `1.3.0`
+    4. The internal build job compiles, tests and releases a minor version: `1.3.0`
 1. `#cbcdefg` -> `2.0.0`
-    1. Alice starts development on master from `1.3.0` (Release Candidate `1.3.0-0-g0000000`)
-    2. Alice tests and commits `#cbcdefg` and pushes to master
-    3. `#cbcdefg` is the first commit since Release `1.3.0`, so Release Candidate `1.3.0-1-gcbcdefg` is created
-    4. Alice releases Release Candidate `1.3.0-1-gcbcdefg` as a major version via [Releaser](https://www.github.com/hmrc/releaser), which creates Release `2.0.0`
+    1. Alice increases the majorVersion property in build.sbt. From `1` to `2`
+    2. Alice starts development on master from `1.3.0` (Release Candidate `2.0.0-SNAPSHOT`)
+    3. Alice tests and commits `#cbcdefg` and pushes to master
+    4. The internal build job compiles, tests and releases a major version:  `2.0.0`
 1. `#dbcdefg` -> `1.3.1`
     1. Alice creates a `1.3.0-hotfix` branch from `1.3.0` on master i.e. commit `#bbcdefi`
-    2. Alice develops and tests a local Release Candidate `1.3.0-0-g0000000`
+    2. Alice develops and tests a local Release Candidate `1.3.1-SNAPSHOT`
     3. Alice tests and commits `#dbcdefg` and pushes to branch `1.3.0-hotfix`
-    4. `#cbcdefg` is the first commit since Release `1.3.0` on branch `1.3.0-hotfix`, so Release Candidate `1.3.0-1-gdbcdefg`
-    5. Alice releases Release Candidate `1.3.0-1-gdbcdefg` as a hotfix version via [Releaser](https://www.github.com/hmrc/releaser), which creates Release `1.3.1`
+    5. The internal build job understands a hotfix has to be creaated beacuse it is building from a branch intead of master. It compiles, tests and releases a patch version: `1.3.1`
 
 There is an internal HMRC document called "Migrating To Building For The Open" that describes how to migrate an internal build to GitHub.com.
 
 ### Artifacts In The Open
 
-All Release Candidates and Releases are hosted at [HMRC on Bintray](https://www.bintray.com/hmrc). 
-
-Once an artifact has been built on Jenkins, it is automatically published to Bintray. This is restricted to Jenkins to protect the Bintray and PGP keys. For SBT repositories [sbt-bintray-publish](https://www.github.com/hmrc/sbt-bintray-publish) is automatically run on Jenkins as a global SBT auto plugin, which means you do not have configure any Bintray publishing code.
+All Releases of libraries are hosted at [HMRC on Bintray](https://www.bintray.com/hmrc) in order to be used by the public if desired.
+The archives containing the packaged microservices are not published, as their only purpose is to be deployed on the HMRC environments
