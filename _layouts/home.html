@@ -8,16 +8,3 @@ layout: default
 </div>
 
 {{ content }}
-
-{% for category in site.category-list  %}
-    <h2>{{category}}</h2>
-    <ul>
-    {% for post in site.posts | order: url %}
-      {% if post.category == category %}
-        <li>
-          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-        </li>
-      {% endif %}
-    {% endfor %}
-    </ul>
-{% endfor %}

@@ -25,13 +25,5 @@ Information about the HMRC GitHub organisation, repositories and approaches to s
 * Create/edit `.md` files in the `/_posts/` folder
 * Directory structure gets turned into urls
 	* i.e. `/pages/foo/bar/index.md` becomes `localhost:4000/pages/foo/bar`
-* Take a look at [how the styling works](https://hmrc.github.io/pages/how-the-styling-works.html) to get an idea of how to style your page.
-* Make sure to include a title, set the layout to **post**, and set the category to one that exists in the category-list in _config.yml, at the top of each page like so:
-```
----
-title: Adding a new Scala library to GitHub
-layout: page
-category: Development Documentation
----
-```
+
 
