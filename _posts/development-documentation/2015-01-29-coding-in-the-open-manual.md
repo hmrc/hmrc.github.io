@@ -8,7 +8,7 @@ The digital services hosted on the MDTP are developed according to the [Governme
 
 > "Make all new source code open and reusable, and publish it under appropriate licences (or provide a convincing explanation as to why this cannot be done for specific subsets of the source code)"
 
-At HMRC, we are making all new source code open and reusable at [HMRC on GitHub](https://www.github.com/hmrc) and publishing it under the [Apache 2 License](https://www.apache.org/licenses/LICENSE-2.0). We are also publishing our libraries at [HMRC on Bintray](https://www.bintray.com/hmrc)
+At HMRC, we are making all new source code open and reusable at [HMRC on GitHub](https://www.github.com/hmrc) and publishing it under the [Apache 2 License](https://www.apache.org/licenses/LICENSE-2.0). We are also publishing our libraries to our own public facing Artefact store [HMRC Open Artefacts](https://open.artefacts.tax.service.gov.uk/)
 
 Security-critical configuration and/or code may remain within internal HMRC systems, but the vast majority of MDTP digital services are either open-sourced or in the process of being open-sourced. 
 
@@ -101,5 +101,5 @@ There is an internal HMRC document called "Migrating To Building For The Open" t
 
 ### Artifacts In The Open
 
-All Releases of libraries are hosted at [HMRC on Bintray](https://www.bintray.com/hmrc) in order to be used by the public if desired.
+All Releases of libraries are hosted at [HMRC Open Artefacts](https://open.artefacts.tax.service.gov.uk/) in order to be used by the public if desired.
 The archives containing the packaged microservices are not published, as their only purpose is to be deployed on the HMRC environments
