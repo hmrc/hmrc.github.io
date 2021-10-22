@@ -79,23 +79,23 @@ Our internal jenkins job automatically tags the GitHub repository upon success `
 Consider Alice working on [domain](https://github.com/hmrc/domain). The most recent Release to production was `1.1.0` and she wants to release commits `#abcdefg`, `#bbcdefg`, `#bbcdefh`, `#bbcdefi`, `#cbcdefg`, and `#dbcdefg` yielding a minor version, a minor version, a major version, and a hotfix version.
 
 1. `#abcdefg` -> `1.2.0`
-    1. Alice starts development on master from `1.1.0` (Release Candidate `1.2.0-SNAPSHOT`)
-    2. Alice tests and commits `#abcdefg` and pushes to master
+    1. Alice starts development on main from `1.1.0` (Release Candidate `1.2.0-SNAPSHOT`)
+    2. Alice tests and commits `#abcdefg` and pushes to main
     3. The internal build job compiles, tests and releases a minor version: `1.2.0`
 1. `#bbcdefg` -> `1.3.0`
-    1. Alice starts development on master from `1.2.0` (Release Candidate `1.3.0-SNAPSHOT`)
-    2. Alice tests and commits `#bbcdefg`, `#bbcdefh`, `#bbcdefi`, and pushes to master
+    1. Alice starts development on main from `1.2.0` (Release Candidate `1.3.0-SNAPSHOT`)
+    2. Alice tests and commits `#bbcdefg`, `#bbcdefh`, `#bbcdefi`, and pushes to main
     4. The internal build job compiles, tests and releases a minor version: `1.3.0`
 1. `#cbcdefg` -> `2.0.0`
     1. Alice increases the majorVersion property in build.sbt. From `1` to `2`
-    2. Alice starts development on master from `1.3.0` (Release Candidate `2.0.0-SNAPSHOT`)
-    3. Alice tests and commits `#cbcdefg` and pushes to master
+    2. Alice starts development on main from `1.3.0` (Release Candidate `2.0.0-SNAPSHOT`)
+    3. Alice tests and commits `#cbcdefg` and pushes to main
     4. The internal build job compiles, tests and releases a major version:  `2.0.0`
 1. `#dbcdefg` -> `1.3.1`
-    1. Alice creates a `1.3.0-hotfix` branch from `1.3.0` on master i.e. commit `#bbcdefi`
+    1. Alice creates a `1.3.0-hotfix` branch from `1.3.0` on main i.e. commit `#bbcdefi`
     2. Alice develops and tests a local Release Candidate `1.3.1-SNAPSHOT`
     3. Alice tests and commits `#dbcdefg` and pushes to branch `1.3.0-hotfix`
-    5. The internal build job understands a hotfix has to be creaated beacuse it is building from a branch intead of master. It compiles, tests and releases a patch version: `1.3.1`
+    5. The internal build job understands a hotfix has to be created because it is building from a branch instead of main. It compiles, tests and releases a patch version: `1.3.1`
 
 There is an internal HMRC document called "Migrating To Building For The Open" that describes how to migrate an internal build to GitHub.com.
 
