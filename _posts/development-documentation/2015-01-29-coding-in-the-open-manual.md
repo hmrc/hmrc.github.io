@@ -20,6 +20,12 @@ Hopefully the repositories that we produce are of use to other Open Source proje
 
 > Of course if you think there is a better way of doing something then submit a pull request or raise an issue - but don't send a letter, we are [Digital By Default](https://www.gov.uk/service-manual/start) after all!
 
+In order to make a contribution to GitHub Repositories, we require all commits to be signed and verified, further reasons for why we require this can be found [here](https://binx.io/2021/12/06/why-you-should-start-signing-your-git-commits-today/). 
+
+Contributors, be them external / internal need to set up a GPG key and add it to their GitHub account so all commits will be signed. 
+
+Instructions to generate a new key can be found [here](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key) and adding them to GitHub can be found [here](https://docs.github.com/en/authentication/managing-commit-signature-verification/adding-a-gpg-key-to-your-github-account). 
+
 ### Source Code In The Open
 
 HMRC is a [GitHub.com public organisation](https://www.github.com/hmrc). The expectation is that every source code repository - a library, a frontend, a service - will be open-sourced on GitHub.com. When a repository contains security-critical code and/or configuration it is refactored to be as small a component as possible, with the non-critical majority open-sourced as a separate repository.
