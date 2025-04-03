@@ -1,37 +1,24 @@
-.DS_Store
-
-### Ruby ###
-*.gem
-*.rbc
-/.config
-/coverage/
-/InstalledFiles
-/pkg/
-/spec/reports/
-/test/tmp/
-/test/version_tmp/
-/tmp/
-
-## Environment normalisation:
-/.bundle/
-/vendor/bundle
-/lib/bundler/man/
-
-# for a library or gem, you might want to ignore these files since the code is
-# intended to run in multiple environments; otherwise, check them in:
-Gemfile.lock
-.ruby-version
-.ruby-gemset
-
-# unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
-.rvmrc
-
-### Jekyll ###
-_site/
-.sass-cache/
-
-### IntelliJ ###
-*.ipr
-*.iml
+logs
+project/project
+project/target
+target
+lib_managed
+tmp
+.history
+dist
+/.idea
+/*.iml
+/*.ipr
+/out
+/.idea_modules
+/.classpath
+/.project
+/RUNNING_PID
+/.settings
 *.iws
-.idea
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+node_modules/
+.DS_Store
