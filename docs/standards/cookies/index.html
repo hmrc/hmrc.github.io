@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" class="govuk-template">
+  <head>
+    <meta charset="utf-8">
+    <title>Cookies - HM Revenue & Customs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#0b0c0c">
+
+<link rel="shortcut icon" sizes="16x16 32x32 48x48" href="/assets/images/favicon.ico" type="image/x-icon"><link rel="mask-icon" href="/assets/images/govuk-mask-icon.svg" color="#0b0c0c"><link rel="apple-touch-icon" href="/assets/images/govuk-apple-touch-icon.png">
+  <link rel="stylesheet" href="/assets/govuk.css">
+  <link rel="stylesheet" href="/css/base.css">
+
+
+  <meta property="og:title" content="Cookies">
+
+  </head>
+  <body class="govuk-template__body">
+    <script>document.body.className += ' js-enabled' + ('noModule' in HTMLScriptElement.prototype ? ' govuk-frontend-supported' : '');</script>
+
+      <a href="#main-content" class="govuk-skip-link" data-module="govuk-skip-link">Skip to main content</a>
+
+
+  <header class="govuk-header app-header" role="banner" data-module="govuk-header">
+  <div class="govuk-header__container govuk-width-container app-header__container">
+    <div class="govuk-header__logo app-header__logo">
+      <a href="/" class="govuk-header__link govuk-header__link--homepage">
+          <span class="govuk-header__logotype">  <img src="/assets/hmrc_crest_18px_x2.png" height="34px" alt="HM Revenue & Customs logo">  <span class="govuk-header__logotype-text">HM Revenue & Customs</span></span>
+        <span class="govuk-header__product-name">
+          Engineering Guidance
+        </span>
+      </a>
+    </div>
+    
+  </div>
+</header>
+
+  
+
+      <div class="govuk-width-container">
+  <nav class="govuk-breadcrumbs govuk-!-display-none-print" aria-label="Breadcrumb">
+  <ol class="govuk-breadcrumbs__list">
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="/">Home</a>
+    </li>
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="/standards/">Standards</a>
+    </li>
+  </ol>
+</nav>
+
+        <main class="govuk-main-wrapper" id="main-content">
+  <header class="app-document-header">
+  <h1 class="app-document-header__title govuk-heading-xl">
+    Cookies
+  </h1>
+
+</header>
+
+
+
+  <div class="app-prose-scope"><p class="govuk-body-s">
+Last updated: 21 March 2025
+</p>
+<p class="govuk-body-l">
+When setting cookies you should consider their purpose and specify attribute values that reduce security risks. External facing websites that make use of cookies to store data on a user's device must abide by the Privacy and Electronic Communications Regulations 2003.
+</p>
+<hr class="govuk-section-break--l govuk-section-break--visible">
+<h2 id="requirement(s)" tabindex="-1" class="govuk-heading-l">Requirement(s)</h2>
+<ul class="govuk-list govuk-list--bullet">
+<li><a href="#you-must-detail-cookies-in-a-cookie-policy" class="govuk-link">You MUST detail cookies in a cookie policy</a></li>
+<li><a href="#you-must-determine-what-cookies-are-essential" class="govuk-link">You MUST determine what cookies are essential</a></li>
+<li><a href="#you-must-gain-consent-from-external-users" class="govuk-link">You MUST gain consent from external users</a></li>
+<li><a href="#you-must-use-the-httponly-attribute-when-possible" class="govuk-link">You MUST use the <tt>HttpOnly</tt> attribute when possible</a></li>
+<li><a href="#you-must-use-the-secure-attribute" class="govuk-link">You MUST use the <tt>Secure</tt> attribute</a></li>
+<li><a href="#you-must-scope-cookies-appropriately" class="govuk-link">You MUST scope cookies appropriately</a></li>
+</ul>
+<h3 id="you-must-detail-cookies-in-a-cookie-policy" tabindex="-1" class="govuk-heading-m">You MUST detail cookies in a cookie policy</h3>
+<p class="govuk-body">Any cookies that may be created during an external user’s interaction with a website must be detailed in a cookie policy. This must include the name of the cookies, what they are used for, and how long they will be stored.</p>
+<h3 id="you-must-determine-what-cookies-are-essential" tabindex="-1" class="govuk-heading-m">You MUST determine what cookies are essential</h3>
+<p class="govuk-body">If a cookie is required to perform an action that an external user has requested, for example to track that they have successfully authenticated, then it is termed an essential cookie. These do not require consent from the user but must still be detailed in a cookie policy.</p>
+<h3 id="you-must-gain-consent-from-external-users" tabindex="-1" class="govuk-heading-m">You MUST gain consent from external users</h3>
+<p class="govuk-body">For external facing websites, you must gain consent from the user prior to storing any non-essential cookies. The <a href="https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guide-to-pecr/cookies-and-similar-technologies/#consent">guidance from the ICO</a> specifies:</p>
+<div class="govuk-inset-text">
+  To be valid, consent must be freely given, specific and informed. It must involve some form of unambiguous positive action – for example, ticking a box or clicking a link – and the person must fully understand that they are giving you consent.
+</div>
+<h3 id="you-must-use-the-httponly-attribute-when-possible" tabindex="-1" class="govuk-heading-m">You MUST use the <tt>HttpOnly</tt> attribute when possible</h3>
+<p class="govuk-body">When setting cookies, the <tt>HttpOnly</tt> attribute can help reduce the risk of cross-site scripting (XSS) attacks by preventing Javascript code from being able to access its content. This form of attack is common and has persistently featured in the <a href="https://owasp.org/www-project-top-ten/">OWASP Top 10</a>, which monitors the most significant security risks to web applications.</p>
+<h3 id="you-must-use-the-secure-attribute" tabindex="-1" class="govuk-heading-m">You MUST use the <tt>Secure</tt> attribute</h3>
+<p class="govuk-body">When setting cookies, the <tt>Secure</tt> attribute specifies that the browser should only send the cookie back to requests using the HTTPS protocol. This makes it more difficult for unauthorised parties to observe the value of the cookie when it is sent from the user’s device to the server.</p>
+<h3 id="you-must-scope-cookies-appropriately" tabindex="-1" class="govuk-heading-m">You MUST scope cookies appropriately</h3>
+<p class="govuk-body">When setting cookies, the <tt>Domain</tt> and <tt>Path</tt> attributes describe the URLs to which the cookies should be sent. By specifying appropriate values for these attributes you can reduce the risk of cookies being sent unnecessarily to other websites on the same domain that do not need them.</p>
+</div>
+
+
+<div class="x-govuk-related-navigation">
+  <nav class="x-govuk-related-navigation__nav-section" role="navigation" aria-labelledby="related-navigation-related-links">
+    <h2 class="x-govuk-related-navigation__main-heading" id="related-navigation-related-links">
+      Related links
+    </h2>
+    <ul class="x-govuk-related-navigation__link-list">
+      <li class="x-govuk-related-navigation__link">
+        <a class="govuk-link x-govuk-related-navigation__section-link x-govuk-related-navigation__section-link--other" href="https://www.gov.uk/service-manual/technology/working-with-cookies-and-similar-technologies">Working with cookies and similar technologies - GOV.UK Service Manual</a>
+      </li>
+      <li class="x-govuk-related-navigation__link">
+        <a class="govuk-link x-govuk-related-navigation__section-link x-govuk-related-navigation__section-link--other" href="https://design-system.service.gov.uk/patterns/cookies-page/">Cookies page - GOV.UK Design System</a>
+      </li>
+      <li class="x-govuk-related-navigation__link">
+        <a class="govuk-link x-govuk-related-navigation__section-link x-govuk-related-navigation__section-link--other" href="https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guide-to-pecr/cookies-and-similar-technologies/">Cookies and similar technologies - Information Commissioner's Office</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+        </main>
+      </div>
+
+  <footer class="govuk-footer app-footer " role="contentinfo">
+  <div class="govuk-width-container ">
+    <div class="govuk-footer__meta">
+      <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+          <h2 class="govuk-visually-hidden">Support links</h2>
+            <ul class="govuk-footer__inline-list">
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="/cookies/">
+                    Cookies
+                  </a>
+                </li>
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="/accessibility-statement/">
+                    Accessibility statement
+                  </a>
+                </li>
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="https://github.com/hmrc/engineering-site-spike">
+                    Github repository
+                  </a>
+                </li>
+            </ul>
+<svg class="govuk-footer__licence-logo" aria-hidden="true" focusable="false" height="17" width="41" viewBox="0 0 483.2 195.7" xmlns="http://www.w3.org/2000/svg">
+  <path fill="currentColor" d="M421.5 142.8V.1l-50.7 32.3v161.1h112.4v-50.7zm-122.3-9.6A47.12 47.12 0 0 1 221 97.8c0-26 21.1-47.1 47.1-47.1 16.7 0 31.4 8.7 39.7 21.8l42.7-27.2A97.63 97.63 0 0 0 268.1 0c-36.5 0-68.3 20.1-85.1 49.7A98 98 0 0 0 97.8 0C43.9 0 0 43.9 0 97.8s43.9 97.8 97.8 97.8c36.5 0 68.3-20.1 85.1-49.7a97.76 97.76 0 0 0 149.6 25.4l19.4 22.2h3v-87.8h-80l24.3 27.5zM97.8 145c-26 0-47.1-21.1-47.1-47.1s21.1-47.1 47.1-47.1 47.2 21 47.2 47S123.8 145 97.8 145"/>
+</svg>
+          <span class="govuk-footer__licence-description">
+            All content is available under the <a class="govuk-footer__link" href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence v3.0</a>, except where otherwise stated
+          </span>
+      </div><div class="govuk-footer__meta-item">© <a class="govuk-footer__link govuk-footer__copyright-logo" href="https://github.com/hmrc/engineering-site-spike/LICENCE">Crown copyright (HM Revenue & Customs)</a>
+        </div>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="/assets/govuk.js" type="module"></script>
+  </body>
+</html>
