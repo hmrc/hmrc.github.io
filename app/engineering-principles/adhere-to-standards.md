@@ -18,12 +18,12 @@ Align with relevant standards to ensure consistency, quality, and drive best pra
 
 ## Motivation
 
-By applying internal and external standards, we help ensure consistency across our estate, improve quality and increase interoperability. We must also to understand and meet relevant legal standards.
+By applying internal and external standards, we help ensure consistency across our estate, improve quality and increase interoperability. We must also understand and meet relevant legal standards.
 
 <hr class="govuk-section-break--l govuk-section-break--visible">
 
 ## Applying this principle
 
-- Consider what existing external standards exist for the tools and technology you are using, and consider contributing to internal interpretations of these where relevant.
-- Be mindful of legal standards such as GDPR and how they affect our ability to handle user data.
+- Consider what existing external standards there are for the tools and technology you are using, and consider contributing to internal interpretations of these where relevant.
+- Be mindful of legal standards such as GDPR and accessibility legislation and how they affect our ability to handle user data.
 - Engage and inform internal processes that ensure compliance with legal requirements, such as Data Protection Impact Assessments (DPIAs) and Security Risk Assessments (SRAs).

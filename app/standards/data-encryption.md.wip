@@ -1,0 +1,49 @@
+---
+layout: page
+title: Data encryption
+date: 2025-03-21
+id: 1
+---
+
+<p class="govuk-body-s">
+Last updated: {{ date | postDate }}
+</p>
+
+<p class="govuk-body-l">
+By encrypting data where appropriate, we can further protect the privacy of users' data and reduce the impact of potential data breaches.
+
+What/why is it
+
+Don't roll your own (ever!)
+
+Use it when it's appropriate
+
+Handling secrets
+
+Think about hash vs encrypt, symm/asymm
+
+Mutual TLS and certificates - keystores separate from the artefact
+
+Make it possible to rotate keys
+
+Practice key rotation - prove it works
+</p>
+
+<hr class="govuk-section-break--l govuk-section-break--visible">
+
+## Requirement(s)
+- [Requirement 1 name](#requirement-1-name)
+- [Requirement 2 name](#requirement-2-name)
+- [Requirement 3 name](#requirement-3-name)
+
+### Requirement 1 name
+
+- 
+
+### Requirement 2 name
+
+- 
+
+### Requirement 3 name
+
+- 
