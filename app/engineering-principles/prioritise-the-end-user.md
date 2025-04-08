@@ -27,3 +27,4 @@ Whilst work may be motivated by business needs, we should always be considering 
 - When building or changing software, ensure you know who the users are and understand their expectations.
 - User research is a team sport -- regardless of profession, we expect all team members engage with user research activity, working in collaboration with a professional user researcher.
 - Where user research isn't feasible, look to performance analytics to provide insights -- ideally before you start implementing change.
+- Design for diverse user needs and ensure that software is usable by people with accessibility requirements.

@@ -5,6 +5,8 @@ const { DateTime } = require("luxon");
 module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy({ "app/assets/": "assets/"});
+  eleventyConfig.addPassthroughCopy({ "CNAME": "CNAME"});
+  eleventyConfig.addPassthroughCopy({ ".nojekyll": ".nojekyll"});
 
   let govukPluginOptions = {
     scssSettingsPath: "/css/_settings.scss",
@@ -18,6 +20,10 @@ module.exports = function(eleventyConfig) {
           '  <span class="govuk-header__logotype-text">HM Revenue & Customs</span>' +
           '</span>'
       },
+      search: {
+        indexPath: '/search.json',
+        sitemapPath: '/sitemap.html'
+      }
     },
     footer: {
       copyright: {
@@ -70,7 +76,7 @@ module.exports = function(eleventyConfig) {
     markdownTemplateEngine: 'njk',
     dir: {
       input: 'app',
-      output: 'docs',
+      output: 'dist',
       // Use layouts from the plugin
       layouts: '../node_modules/@x-govuk/govuk-eleventy-plugin/layouts'
     }

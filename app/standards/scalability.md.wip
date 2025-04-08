@@ -1,0 +1,47 @@
+---
+layout: page
+title: Scalability
+date: 2025-03-21
+id: 1
+---
+
+<p class="govuk-body-s">
+Last updated: {{ date | postDate }}
+</p>
+
+<p class="govuk-body-l">
+What/why is it
+
+Make sure what you build can be scaled easily
+
+Make it easy to know how/when you should scale
+
+Validate with performance testing
+
+Think about horizontal/vertical - consider shared state, load balancing
+
+Knowing which things you can/can't scale within the stack - including downstream deps, and how they might be impacted
+
+Per environment scaling, per service considerations
+
+Way to decomm and scale down
+</p>
+
+<hr class="govuk-section-break--l govuk-section-break--visible">
+
+## Requirement(s)
+- [Requirement 1 name](#requirement-1-name)
+- [Requirement 2 name](#requirement-2-name)
+- [Requirement 3 name](#requirement-3-name)
+
+### Requirement 1 name
+
+- 
+
+### Requirement 2 name
+
+- 
+
+### Requirement 3 name
+
+- 

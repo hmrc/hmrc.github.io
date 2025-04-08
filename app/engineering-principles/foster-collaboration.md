@@ -24,6 +24,7 @@ Being honest with stakeholders builds trust and promotes better ways of working,
 
 ## Applying this principle
 
+- Encourage cross-functional teams who collaborate and share knowledge.
 - Establish a regular cadence of sessions to "show the thing", including demonstrating the user research that led to particular decisions.
 - Make good use of workshops to bring together different stakeholder groups -- like policy, operational and technology colleagues -- and reach a common understanding of how the overall solution will help users.
 - Communicate blockers and problems openly, to allow informed decisions to be made about potential mitigations and enable accurate messaging to users who may be affected.

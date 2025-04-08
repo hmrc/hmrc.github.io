@@ -29,4 +29,4 @@ Once we have insights from our users, we can better prioritise the remaining inc
 - Work with stakeholders to help them understand the opportunities to release an MVP that can be incremented.
 - Ensure that you have repeatable, automated build pipelines that include appropriate automated tests.
 - Reduce the reliance upon end-to-end testing by building confidence early through faster, cheaper means of testing including automation.
-- Support stakeholders in identifying, understanding and accepting the risks of each release.
+- Support stakeholders in identifying, understanding, mitigating or accepting the risks of each release.

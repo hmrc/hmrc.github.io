@@ -1,0 +1,45 @@
+---
+layout: page
+title: Database backups
+date: 2025-03-21
+id: 1
+---
+
+<p class="govuk-body-s">
+Last updated: {{ date | postDate }}
+</p>
+
+<p class="govuk-body-l">
+What/why is it
+
+Make sure they're secure
+
+How you know they're not tampered with
+
+Who owns the key to get at the data
+
+Test that they work
+
+Take them frequently based on service/platform requirements - know what you need
+
+Automated
+</p>
+
+<hr class="govuk-section-break--l govuk-section-break--visible">
+
+## Requirement(s)
+- [Requirement 1 name](#requirement-1-name)
+- [Requirement 2 name](#requirement-2-name)
+- [Requirement 3 name](#requirement-3-name)
+
+### Requirement 1 name
+
+- 
+
+### Requirement 2 name
+
+- 
+
+### Requirement 3 name
+
+- 

@@ -11,7 +11,7 @@ Last updated: {{ date | postDate }}
 </p>
 
 <p class="govuk-body-l">
-Embrace a "you build it, you run it" mindset, ensuring quality, observability and testing are embedded into processes, maintain responsibility until services meet agreed standards.
+Embrace a "you build it, you run it" mindset, ensuring quality, observability and testing are embedded into processes. You should maintain responsibility until services meet agreed standards.
 </p>
 
 <hr class="govuk-section-break--l govuk-section-break--visible">
