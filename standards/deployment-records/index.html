@@ -2,7 +2,7 @@
 <html lang="en" class="govuk-template">
   <head>
     <meta charset="utf-8">
-    <title>Promote flexibility and reusability - HM Revenue & Customs</title>
+    <title>Deployment records - HM Revenue & Customs</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0c0c">
 
@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="/css/base.css">
 
 
-  <meta property="og:title" content="Promote flexibility and reusability">
+  <meta property="og:title" content="Deployment records">
 
   </head>
   <body class="govuk-template__body">
@@ -44,7 +44,7 @@
       <a class="govuk-breadcrumbs__link" href="/">Home</a>
     </li>
     <li class="govuk-breadcrumbs__list-item">
-      <a class="govuk-breadcrumbs__link" href="/engineering-principles/">Engineering principles</a>
+      <a class="govuk-breadcrumbs__link" href="/standards/">Standards</a>
     </li>
   </ol>
 </nav>
@@ -52,7 +52,7 @@
         <main class="govuk-main-wrapper" id="main-content">
   <header class="app-document-header">
   <h1 class="app-document-header__title govuk-heading-xl">
-    Promote flexibility and reusability
+    Deployment records
   </h1>
 
 </header>
@@ -63,20 +63,31 @@
 Last updated: 21 March 2025
 </p>
 <p class="govuk-body-l">
-Enable teams to choose appropriate tools, practices and approaches for the problem they are solving. Encourage the use of reusable components and open standards to improve efficiency, reduce maintenance effort and improve consistency.
+By maintaining records around deployments, you are able to accurately determine what software and configuration was in place at a given time. This is important when investigating issues and provides an audit trail around changes.
 </p>
 <hr class="govuk-section-break--l govuk-section-break--visible">
-<h2 id="motivation" tabindex="-1" class="govuk-heading-l">Motivation</h2>
-<p class="govuk-body">By equipping teams with knowledge of available tools and technologies that can be supported within the organisation, they can make better decisions about the best choice for the problem they are solving. Maintaining a catalogue of reusable components helps them solve common challenges with robust, well-tested solutions in an understood way.</p>
-<hr class="govuk-section-break--l govuk-section-break--visible">
-<h2 id="applying-this-principle" tabindex="-1" class="govuk-heading-l">Applying this principle</h2>
+<h2 id="requirement(s)" tabindex="-1" class="govuk-heading-l">Requirement(s)</h2>
 <ul class="govuk-list govuk-list--bullet">
-<li>Design high-level architectural patterns without overly constraining how these may be implemented in different contexts.</li>
-<li>Avoid premature abstractions that tightly couple different services together unnecessarily.</li>
-<li>Ensure that reusable components have sustainable support to update, document, and maintain them.</li>
-<li>Provide an easy way for teams to identify potentially useful components themselves, for example through developer platforms and documentation.</li>
-<li>Design lightweight governance processes that allow appropriate innovation and experimentation, whilst ensuring organisational standards are still considered.</li>
+<li><a href="#you-must-version-software-artefacts-that-are-deployed" class="govuk-link">You MUST version software artefacts that are deployed</a></li>
+<li><a href="#you-must-version-configuration-files-that-are-deployed" class="govuk-link">You MUST version configuration files that are deployed</a></li>
+<li><a href="#you-must-capture-who-triggered-a-deployment-event%2C-how-and-when" class="govuk-link">You MUST capture who triggered a deployment event, how and when</a></li>
+<li><a href="#you-must-capture-information-about-how-the-deployment-process-has-executed" class="govuk-link">You MUST capture information about how the deployment process has executed</a></li>
+<li><a href="#you-must-retain-deployment-records-for-an-appropriate-duration" class="govuk-link">You MUST retain deployment records for an appropriate duration</a></li>
+<li><a href="#you-must-protect-deployment-records-from-tampering" class="govuk-link">You MUST protect deployment records from tampering</a></li>
 </ul>
+<h3 id="you-must-version-software-artefacts-that-are-deployed" tabindex="-1" class="govuk-heading-m">You MUST version software artefacts that are deployed</h3>
+<p class="govuk-body">Using versioned artefacts for software deployments makes it easier to reason about the expected behaviour of an application, makes it easier to investigate defects, and is a key part of repeatable build pipelines.</p>
+<h3 id="you-must-version-configuration-files-that-are-deployed" tabindex="-1" class="govuk-heading-m">You MUST version configuration files that are deployed</h3>
+<p class="govuk-body">Configuration combines with application code to determine the behaviour of software. Therefore deployments of configuration must also be versioned and deployments recorded to provide a full understanding of how the application is expected to behave.</p>
+<h3 id="you-must-capture-who-triggered-a-deployment-event%2C-how-and-when" tabindex="-1" class="govuk-heading-m">You MUST capture who triggered a deployment event, how and when</h3>
+<p class="govuk-body">Storing this information allows you to understand why a deployment has been made. This allows auditing of this information and proper attribution of responsibility for changes.</p>
+<h3 id="you-must-capture-information-about-how-the-deployment-process-has-executed" tabindex="-1" class="govuk-heading-m">You MUST capture information about how the deployment process has executed</h3>
+<p class="govuk-body">Deployments should usually succeed but may sometimes fail. When a deployment fails, there should be sufficient information to understand why and what state the application has been left in (for example, has a rollback occurred automatically).</p>
+<h3 id="you-must-retain-deployment-records-for-an-appropriate-duration" tabindex="-1" class="govuk-heading-m">You MUST retain deployment records for an appropriate duration</h3>
+<p class="govuk-body">Issues caused by deployments may not be noticed until a protracted time afterwards, especially in complex systems. Therefore, records should be retained for an appropriate length of time to enable investigations to be undertaken.</p>
+<p class="govuk-body">You may be asked to use deployment records as part of evidence for legal challenges from users and should therefore determine the duration based on the likelihood of this within your context.</p>
+<h3 id="you-must-protect-deployment-records-from-tampering" tabindex="-1" class="govuk-heading-m">You MUST protect deployment records from tampering</h3>
+<p class="govuk-body">To ensure accuracy of deployment records, they should be stored in a way that it is very difficult to modify or tamper with them.</p>
 </div>
 
 
