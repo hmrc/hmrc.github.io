@@ -2,7 +2,7 @@
 <html lang="en" class="govuk-template">
   <head>
     <meta charset="utf-8">
-    <title>Promote flexibility and reusability - HM Revenue & Customs</title>
+    <title>Test automation - HM Revenue & Customs</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0c0c">
 
@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="/css/base.css">
 
 
-  <meta property="og:title" content="Promote flexibility and reusability">
+  <meta property="og:title" content="Test automation">
 
   </head>
   <body class="govuk-template__body">
@@ -44,7 +44,7 @@
       <a class="govuk-breadcrumbs__link" href="/">Home</a>
     </li>
     <li class="govuk-breadcrumbs__list-item">
-      <a class="govuk-breadcrumbs__link" href="/engineering-principles/">Engineering principles</a>
+      <a class="govuk-breadcrumbs__link" href="/standards/">Standards</a>
     </li>
   </ol>
 </nav>
@@ -52,7 +52,7 @@
         <main class="govuk-main-wrapper" id="main-content">
   <header class="app-document-header">
   <h1 class="app-document-header__title govuk-heading-xl">
-    Promote flexibility and reusability
+    Test automation
   </h1>
 
 </header>
@@ -63,20 +63,31 @@
 Last updated: 21 March 2025
 </p>
 <p class="govuk-body-l">
-Enable teams to choose appropriate tools, practices and approaches for the problem they are solving. Encourage the use of reusable components and open standards to improve efficiency, reduce maintenance effort and improve consistency.
+Automating tests helps increase the accuracy and reproducibility of tests, reduces test execution effort, and enables continuous integration/deployment practices that allow value to be released to users more frequently with confidence.
 </p>
 <hr class="govuk-section-break--l govuk-section-break--visible">
-<h2 id="motivation" tabindex="-1" class="govuk-heading-l">Motivation</h2>
-<p class="govuk-body">By equipping teams with knowledge of available tools and technologies that can be supported within the organisation, they can make better decisions about the best choice for the problem they are solving. Maintaining a catalogue of reusable components helps them solve common challenges with robust, well-tested solutions in an understood way.</p>
-<hr class="govuk-section-break--l govuk-section-break--visible">
-<h2 id="applying-this-principle" tabindex="-1" class="govuk-heading-l">Applying this principle</h2>
+<h2 id="requirement(s)" tabindex="-1" class="govuk-heading-l">Requirement(s)</h2>
+<h3 id="you-must-identify-appropriate-levels-of-testing-to-automate" tabindex="-1" class="govuk-heading-m">You MUST identify appropriate levels of testing to automate</h3>
+<p class="govuk-body">Depending on the software under test, you will be able to gain confidence from automating a range of tests, such as:</p>
 <ul class="govuk-list govuk-list--bullet">
-<li>Design high-level architectural patterns without overly constraining how these may be implemented in different contexts.</li>
-<li>Avoid premature abstractions that tightly couple different services together unnecessarily.</li>
-<li>Ensure that reusable components have sustainable support to update, document, and maintain them.</li>
-<li>Provide an easy way for teams to identify potentially useful components themselves, for example through developer platforms and documentation.</li>
-<li>Design lightweight governance processes that allow appropriate innovation and experimentation, whilst ensuring organisational standards are still considered.</li>
+<li>Unit tests</li>
+<li>Integration tests</li>
+<li>User interface driven tests</li>
+<li>Performance tests</li>
+<li>Accessibility tests</li>
+<li>Security tests</li>
 </ul>
+<h3 id="you-must-consider-whether-automation-is-appropriate" tabindex="-1" class="govuk-heading-m">You MUST consider whether automation is appropriate</h3>
+<p class="govuk-body">The code and configuration of automated tests must be created and then maintained over time, like with application code. It is therefore important to consider the costs and benefits of automating different tests, and how many of those tests, rather than automating all tests.</p>
+<h3 id="you-must-reduce-duplication-between-different-levels-of-testing" tabindex="-1" class="govuk-heading-m">You MUST reduce duplication between different levels of testing</h3>
+<p class="govuk-body">Different levels of testing have vastly different execution costs. Therefore, if it is possible to gain confidence that functionality is correct using faster running unit tests this should be preferred over integration or user interface driven tests. Testing the same functionality at multiple levels gives quickly diminishing returns so should be avoided.</p>
+<p class="govuk-body">This can be facilitated by having development and test professionals pairing or working closely together, so they can collectively decide the best test approach for a given change.</p>
+<h3 id="you-must-run-automated-tests-regularly" tabindex="-1" class="govuk-heading-m">You MUST run automated tests regularly</h3>
+<p class="govuk-body">Tests provide the most value when they are run often enough to detect new defects and potential regressions. They should ideally be run for every change that is made to make it easy to identify which change has caused a failure to occur.</p>
+<h3 id="you-must-manage-the-size-of-test-packs-over-time" tabindex="-1" class="govuk-heading-m">You MUST manage the size of test packs over time</h3>
+<p class="govuk-body">Very large sets of tests will take longer to run and therefore provide less immediate feedback. If tests impact upon release cadence too greatly, people will opt to not run them or ignore the results.</p>
+<h3 id="you-must-maintain-test-packs-to-reduce-flaky-tests" tabindex="-1" class="govuk-heading-m">You MUST maintain test packs to reduce flaky tests</h3>
+<p class="govuk-body">Flaky tests are tests that sometimes fail even though there have been no relevant changes to the code base. It is important to investigate these tests and mitigate the causes of the flakiness, or people will lose confidence in the test pack. It also increases the likelihood that genuine defects or regressions are ignored, as the failure may be incorrectly attributed to flakiness.</p>
 </div>
 
 

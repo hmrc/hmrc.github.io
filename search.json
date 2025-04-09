@@ -1,0 +1,197 @@
+[  {
+    "title": "Adhere to standards and best practices",
+"section": "engineeringPrinciples",    "layout": "page",
+    "hasFrontmatterDate": true,
+    "date": "21 March 2025",
+    "templateContent": "last updated: 21 march 2025 align with relevant standards ensure consistency quality drive best practice motivation by applying internal external help across our estate improve increase interoperability must also understand meet legal this principle consider what existing there are tools technology using contributing interpretations these where mindful such gdpr accessibility legislation how they affect ability handle user data engage inform processes that compliance requirements protection impact assessments dpias security risk sras",
+    "url": "/engineering-principles/adhere-to-standards/"
+  },  {
+    "title": "Build with testing in mind",
+"section": "engineeringPrinciples",    "layout": "page",
+    "hasFrontmatterDate": true,
+    "date": "21 March 2025",
+    "templateContent": "last updated: 21 march 2025 when making technical choices always consider implications how will test what are building make decisions that enable fast feedback cycles confidence obtained quickly cheaply easily motivation before releasing software change should have applied appropriate testing confident work by embedding from earliest stages development can ensure our support range different approaches allowing us each applying this principle encourage automated tests default choice all changes decide best way gain example unit instead ui driven where possible establish working practices your team reduce amount duplication across types use build pipelines run regression frequently automatically provide production like environments platforms tools considering lifespan these data made available",
+    "url": "/engineering-principles/build-for-testing/"
+  },  {
+    "title": "Promote flexibility and reusability",
+"section": "engineeringPrinciples",    "layout": "page",
+    "hasFrontmatterDate": true,
+    "date": "21 March 2025",
+    "templateContent": "last updated: 21 march 2025 enable teams choose appropriate tools practices approaches problem they are solving encourage use reusable components open standards improve efficiency reduce maintenance effort consistency motivation by equipping with knowledge available technologies that can supported within organisation make better decisions about best choice maintaining catalogue helps them solve common challenges robust well tested solutions understood way applying this principle design high level architectural patterns without overly constraining how these may implemented different contexts avoid premature abstractions tightly couple services together unnecessarily ensure have sustainable support update document maintain provide easy identify potentially useful themselves example through developer platforms documentation lightweight governance processes allow innovation experimentation whilst ensuring organisational still considered",
+    "url": "/engineering-principles/flexibility-and-reusability/"
+  },  {
+    "title": "Foster collaboration and transparency",
+"section": "engineeringPrinciples",    "layout": "page",
+    "hasFrontmatterDate": true,
+    "date": "21 March 2025",
+    "templateContent": "last updated: 21 march 2025 build trust through open communication managing risks collaboratively sharing progress honestly highlight challenges early demonstrate how they're being addressed motivation honest with stakeholders builds promotes better ways working where teams have mutual respect each other understand their shared constraints that are well understood by both parties can handled leading overall outcomes our users applying this principle encourage cross functional who collaborate share knowledge establish regular cadence sessions show thing including demonstrating user research led particular decisions make good use workshops bring together different stakeholder groups like policy operational technology colleagues reach common understanding solution will help communicate blockers problems openly allow informed made about potential mitigations enable accurate messaging may affected",
+    "url": "/engineering-principles/foster-collaboration/"
+  },  {
+    "title": "Invest in long-term quality and innovation",
+"section": "engineeringPrinciples",    "layout": "page",
+    "hasFrontmatterDate": true,
+    "date": "21 March 2025",
+    "templateContent": "last updated: 21 march 2025 always factor time maintain technical health repaying debt consistent basis apply curiosity new technologies diligently evaluate how they address known problems adding real value our users motivation by frequently considering software can make better decisions about when shortcomings improve service offering this also allows us understand technology may help overcome well understood applying principle clearly communicate short term result plan will addressed ensure tracked way that reduces risk being forgotten against their ability benefit data driven approach where possible",
+    "url": "/engineering-principles/invest-and-innovate/"
+  },  {
+    "title": "Adopt iterative, risk-based approaches",
+"section": "engineeringPrinciples",    "layout": "page",
+    "hasFrontmatterDate": true,
+    "date": "21 March 2025",
+    "templateContent": "last updated: 21 march 2025 deliver value early through minimum viable products mvps fast feedback cycles applying appropriate testing right time build sufficient confidence motivation our users only realised when they can start using software should try release that them quickly approach proportional risks doing this both terms impact organisation rather than always same different situations once have insights from better prioritise remaining incremental improvements based upon quantitive qualitative data relying project roadmaps principle work with stakeholders help understand opportunities mvp incremented ensure repeatable automated pipelines include tests reduce reliance end by building faster cheaper means including automation support identifying understanding mitigating accepting each",
+    "url": "/engineering-principles/iterative-approach/"
+  },  {
+    "title": "Prioritise the end user",
+"section": "engineeringPrinciples",    "layout": "page",
+    "hasFrontmatterDate": true,
+    "date": "21 March 2025",
+    "templateContent": "last updated: 21 march 2025 focus delivering value that meets user needs expectations ensuring solutions are designed with their goals mind motivation whilst work may motivated by business should always considering what users need otherwise risk building software its deliver desired benefits applying this principle when changing ensure know who understand research team sport regardless profession expect all members engage activity working collaboration professional researcher where feasible look performance analytics provide insights ideally before start implementing change design diverse usable people accessibility requirements",
+    "url": "/engineering-principles/prioritise-the-end-user/"
+  },  {
+    "title": "Take ownership of quality and delivery",
+"section": "engineeringPrinciples",    "layout": "page",
+    "hasFrontmatterDate": true,
+    "date": "21 March 2025",
+    "templateContent": "last updated: 21 march 2025 embrace \" build run mindset ensuring quality observability testing are embedded into processes should maintain responsibility until services meet agreed standards motivation people with most knowledge about service how works those who built therefore they best placed support live environment by providing that team qualitative quantitative feedback able incrementally improve create better user experience applying this principle equip teams tools required manage their own production including access appropriate data diagnose problems themselves empower release guard rails controls where needed ensure there clear expectations set around what expected technologies being used",
+    "url": "/engineering-principles/take-ownership/"
+  },  {
+    "title": "Accessibility",
+"section": "standards",    "layout": "page",
+    "hasFrontmatterDate": true,
+    "date": "21 March 2025",
+    "templateContent": "last updated: 21 march 2025 software build procure must accessible all users including those who use assistive technology like screen readers requirement s include accessibility statement websites apps implement approach testing engage with relevant hmrc team helps better understand how they can interact your website app any difficulties may face when try also provides information about report further problems help iterate improve there are range different freely available tools identify some types issues these allow reduce risk introducing that cause prior releasing changes production manual automated way should ensure performed regularly perform own audit audits time consuming focussed finding complex have expertise find yourself through rarely simple failures will identified by regular two teams responsible undertaking producing statements meet legal policy requirements well providing guidance around more generally follow area determine which need work arrange get produced",
+    "url": "/standards/accessibility/"
+  },  {
+    "title": "Auditing",
+"section": "standards",    "layout": "page",
+    "hasFrontmatterDate": true,
+    "date": "21 March 2025",
+    "templateContent": "last updated: 21 march 2025 capturing audit information essential many different types software helps us maintain record how internal external users have interacted with which important activities such non repudiation regulatory compliance requirement s must capture from user interactions store securely agree length time keep data protect modification tampering when interacts your this detail interaction about what action they took may also include additional metadata session identifier that correlate multiple events together describe set actions due detailed nature will usually constitute personally identifiable pii therefore take appropriate steps only providing access limited number monitoring their relates individuals outside hmrc need restrict holding certain levels security clearance agreed business partner sibp collaboration stakeholders put place processes ensure removed after forms form part evidence disciplinary meetings tribunals sufficiently protected considered reliable truthful happened",
+    "url": "/standards/audit/"
+  },  {
+    "title": "Availability",
+"section": "standards",    "layout": "page",
+    "hasFrontmatterDate": true,
+    "date": "21 March 2025",
+    "templateContent": "last updated: 21 march 2025 software only provides value our users when available use working expected should know what those expectations are measure performance against them requirement s must have agreed availability monitor by with your stakeholders agree level ensure support arrangements suitable this example days hours that will provided using observability tooling able understand service reporting requirements they may",
+    "url": "/standards/availability/"
+  },  {
+    "title": "Build pipelines",
+"section": "standards",    "layout": "page",
+    "hasFrontmatterDate": true,
+    "date": "21 March 2025",
+    "templateContent": "last updated: 21 march 2025 build pipelines are key part modern software development they should used transform source code other inputs into deployable automated repeatable way requirement s must use produce artefacts versioned run appropriate tests checks by automating process building ensure this happens controlled improve consistency also avoid risk hidden dependencies that available machine may cause later builds fail unexpectedly produced uniquely immutable means once specific version artefact been created overwrite reusing same number these then stored repository pipeline time can only pass include low level unit which cheap execute well higher where measures such test coverage complexity metrics dependency scanning",
+    "url": "/standards/build-pipelines/"
+  },  {
+    "title": "Certificate management",
+"section": "standards",    "layout": "page",
+    "hasFrontmatterDate": true,
+    "date": "21 March 2025",
+    "templateContent": "last updated: 21 march 2025 digital certificates can used number ways improve security however they must managed appropriately achieve this avoid unexpected service outages requirement s monitor when will expire use different environments have varying validity lengths become invalid longer trusted may cause issues such failed authentication leading make sure understand are valid until renew them ahead time downtime should aware how long renewal process take which depends upon issued your case test production very controls example engineer able gain access lower level logging audit information environment without specific clearance credentials that secure connections between services shared increases risk incident",
+    "url": "/standards/certificate-management/"
+  },  {
+    "title": "Cookies",
+"section": "standards",    "layout": "page",
+    "hasFrontmatterDate": true,
+    "date": "21 March 2025",
+    "templateContent": "last updated: 21 march 2025 when setting cookies should consider their purpose specify attribute values that reduce security risks external facing websites make use store data user's device must abide by privacy electronic communications regulations 2003 requirement s detail cookie policy determine what are essential gain consent from users httponly possible secure scope appropriately any may created during interaction with website detailed this include name they used how long will stored required perform action user requested example track have successfully authenticated then termed these require still prior storing non guidance ico specifies: valid freely given specific informed involve some form unambiguous positive ticking box clicking link person fully understand giving can help risk cross site scripting xss attacks preventing javascript code being able access its content attack common persistently featured owasp top 10 which monitors most significant web applications specifies browser only send back requests using https protocol makes more difficult unauthorised parties observe value sent server domain path attributes describe urls specifying appropriate unnecessarily other same need them",
+    "url": "/standards/cookies/"
+  },  {
+    "title": "Data privacy",
+"section": "standards",    "layout": "page",
+    "hasFrontmatterDate": true,
+    "date": "21 March 2025",
+    "templateContent": "last updated: 21 march 2025 all have responsibility ensuring handle user data appropriately line with legislation such uk gpdr requirement s must limit people applications access only capture necessary when are storing always identify that strictly these this should also reviewed periodically wherever possible preferable prevent directly instead restrict tooling can apply appropriate role based control auditing where stored infrastructure shared across different database cluster ensure partitioned between services example by per application credentials reduce risk one compromised leak associated another facilitate transfers performed apis rather than through state filesystem minimisation principle states personal captured adequate relevant limited what means gather irrelevant from users able explain purpose there protection impact assessment dpia place your software accurately describes how handled used retain whilst needed storage limitation kept longer understand context put controls enforced test work expected encryption sensitive being exposed causes great harm individuals approach reduces any leaked compromising useful malicious decrypting requires key available encrypted transit rest",
+    "url": "/standards/data-privacy/"
+  },  {
+    "title": "Deployment records",
+"section": "standards",    "layout": "page",
+    "hasFrontmatterDate": true,
+    "date": "21 March 2025",
+    "templateContent": "last updated: 21 march 2025 by maintaining records around deployments are able accurately determine what software configuration place given time this important when investigating issues provides audit trail changes requirement s must version artefacts that deployed files capture who triggered deployment event how information about process executed retain appropriate duration protect from tampering using versioned makes easier reason expected behaviour application investigate defects key part repeatable build pipelines combines with code therefore also recorded provide full understanding behave storing allows understand why been made auditing proper attribution responsibility should usually succeed may sometimes fail fails there sufficient state left example rollback occurred automatically caused noticed until protracted afterwards especially complex systems retained length enable investigations undertaken asked use evidence legal challenges users based likelihood within your context ensure accuracy they stored way very difficult modify tamper them",
+    "url": "/standards/deployment-records/"
+  },  {
+    "title": "Development environments",
+"section": "standards",    "layout": "page",
+    "hasFrontmatterDate": true,
+    "date": "21 March 2025",
+    "templateContent": "last updated: 21 march 2025 effectively develop test application engineer must have access suitable development environment this may run locally their machine hosted virtualised requirement s enable engineers make changes isolated way tests against ensure any resources are released when possible prevented from making concurrently made scalable includes being able isolate each other software observe behaviour without facing contention environments enabling write allows them gain confidence quickly through fast feedback cycles also encourages mentality that everyone responsible quality testing activity starts after build completed virtual used host these should excessive costs incurred",
+    "url": "/standards/development-enviroment/"
+  },  {
+    "title": "Infrastructure as code",
+"section": "standards",    "layout": "page",
+    "hasFrontmatterDate": true,
+    "date": "21 March 2025",
+    "templateContent": "last updated: 21 march 2025 infrastructure code iac approach used describe how cloud resources should provisioned configured way that automated consistent versioned requirement s must define using tooling store version control apply changes through pipelines avoid making outside make use testing validation tools follow security best practices your platform allows automatically build software systems out different services this avoids need manual error prone configuration which may hard understand maintain reproduce brings similar benefits does general development such : acting single source truth about enabling multiple engineers contribute overall system simultaneously providing record what have been made when by whom enforcing level access who can applying reduces risk human checks performed enforce provisioning across environments difficult track they also unpredictably overridden subsequent deployments could cause rollback processes fail form executable specification same types errors any other sort therefore subject appropriate prevent misconfiguration unexpected results before deployed ensure secure appropriately example employing role based rbac following principle least privilege likelihood impact breaches ensuring users are given minimum permissions required perform their tasks additional only granted time necessary complete task granting these audited",
+    "url": "/standards/infrastructure-as-code/"
+  },  {
+    "title": "Observability",
+"section": "standards",    "layout": "page",
+    "hasFrontmatterDate": true,
+    "date": "21 March 2025",
+    "templateContent": "last updated: 21 march 2025 operate software effectively need have insights into how behaving performing by capturing logs metrics about significant events this allows detect diagnose resolve issues quickly even prevent there being user impact requirement s must capture meaningful log data way inspect search automatically alert take action from platform technology appropriate levels define useful lifetime access controls having essential understanding your however should excessively increases costs storage indexing makes harder find relevant risk personally identifiable information pii exposed unknowingly using management analytics tooling more capability build customised visualisations dashboards tailor specifically interest manual monitoring time consuming difficult error prone automated alerting tools allow specify conditions under which required protect service availability configurable based specific requirements alerts always actionable spurious make less likely real will given attention increasing probability severity impacting incidents depending use consider what monitor example may log: interaction with frontend component database health indicators api network container virtual machine hardware utilisation business level retaining longer than they are wastes compute resources identify also potentially any breaches sensitivity logging who implement control discussed collaboration security partner sibp",
+    "url": "/standards/observability/"
+  },  {
+    "title": "Software licensing",
+"section": "standards",    "layout": "page",
+    "hasFrontmatterDate": true,
+    "date": "21 March 2025",
+    "templateContent": "last updated: 21 march 2025 software licenses are legal agreements that define how can used modified distributed must aware implications licences build buy requirement s include licensing information with all should have licence defines understand requirements choose such including copyright headers files particular way this usually involves specifying through file version control unsure most appropriate apply seek advice who owns intellectual property built regardless whether internally support from service providers bought ownership involved especially important during contract transitions where documentation owned by hmrc transferred easily reducing risk interruptions adhere open source code depend upon there many different types may applied libraries wish use these vary significantly impact your own modifications make library therefore any consider publishing repository following standard 12 cross government behind our services openly available people reused adapt possible under appropriately permissive release able justify reason why example relate unannounced policy",
+    "url": "/standards/software-licensing/"
+  },  {
+    "title": "Test automation",
+"section": "standards",    "layout": "page",
+    "hasFrontmatterDate": true,
+    "date": "21 March 2025",
+    "templateContent": "last updated: 21 march 2025 automating tests helps increase accuracy reproducibility reduces test execution effort enables continuous integration deployment practices that allow value released users more frequently with confidence requirement s must identify appropriate levels testing automate depending software under will able gain from range such : unit user interface driven performance accessibility security consider whether automation code configuration automated created then maintained over time like application therefore important costs benefits different how many those rather than all reduce duplication between have vastly possible functionality correct using faster running this should preferred same multiple gives quickly diminishing returns avoided can facilitated by having development professionals pairing working closely together they collectively decide best approach given change run regularly provide most when are often enough detect new defects potential regressions ideally every made make easy which caused failure occur manage size packs very large sets take longer less immediate feedback impact upon release cadence too greatly people opt them ignore results maintain flaky sometimes fail even though there been relevant changes base investigate these mitigate causes flakiness lose pack also increases likelihood genuine ignored may incorrectly attributed",
+    "url": "/standards/test-automation/"
+  },  {
+    "title": "Version control",
+"section": "standards",    "layout": "page",
+    "hasFrontmatterDate": true,
+    "date": "21 March 2025",
+    "templateContent": "last updated: 21 march 2025 effective use version control system requires agreement around how will used including considering specific context application requirement s must ensure can always build artefact from your source code have way enable multiple contributors enforce commit signing repositories prevent direct changes main branch define adhere branching strategy plan rolling back fixing forward should able built into that deployed this means new changed functionality merged until work completed been tested appropriately may want consider configuration such feature flags merge without making those subsequent point time when they enabled through values systems are very highlighting situations where same by different authors cannot combined however understand resolve these safely technology using otherwise avoid them example communication within team difficult achieve with platform become significantly worse number increases makes public private key cryptography give extra confidence being committed authorised individual adding cryptographic signature verified server which reject any invalid missing signatures minimum enforced all branches deploy artefacts environments prevented appropriate processes reviews automated tests succeeded helps buildable deployable state also prevents single user change themselves platforms toolsets constrain apply trunk based workflow follow consistent tools make documented approach well understood agreed members unexpected issues found during after deployment intend roll affects users who already started updated externalised database fix specifically caters need create hotfix versions history longer",
+    "url": "/standards/version-control/"
+  },  {
+    "title": "About",
+"section": "Home",    "layout": "page",
+    "hasFrontmatterDate": false,
+    "date": "9 April 2025",
+    "templateContent": "single point reference guide all software development across hmrc purpose makes use range different technologies its estate however believe there are unifying principles standards practices that apply broadly these this site meant provide singular both staff suppliers alike help improve quality consistency areas organisation some contexts may feasible sensible standardised way should consider guidance within context which working who responsible been developed by management practice collaboration between chief engineering platform office cepo digital product cdpo discuss content here including suggestions changes additions please feel free raise issue our github repository",
+    "url": "/about/"
+  },  {
+    "title": "Accessibility statement for Engineering guidance",
+"section": "Home",    "layout": "page",
+    "hasFrontmatterDate": false,
+    "date": "9 April 2025",
+    "templateContent": "this accessibility statement explains how accessible service what have difficulty using report problems with part wider gov.uk website there separate main site provides singular point reference unifying principles standards practices that apply across broad range technologies used estate compliant web content guidelines version 2.2 aa standard yet been checked compliance some users may find parts difficult use",
+    "url": "/accessibility-statement/"
+  },  {
+    "title": "Cookie settings",
+"section": "Home",    "layout": "page",
+    "hasFrontmatterDate": false,
+    "date": "9 April 2025",
+    "templateContent": "cookies are files saved your phone tablet computer when visit website use this",
+    "url": "/cookies/"
+  },  {
+    "title": "Engineering principles",
+"section": "Home",    "layout": "collection",
+    "hasFrontmatterDate": false,
+    "date": "9 April 2025",
+    "templateContent": "our principles serve foundation way work inform choices that make they should apply regardless product platform technology",
+    "url": "/engineering-principles/"
+  },  {
+    "title": "Engineering Guidance",
+"description": "Discover more about the engineering standards all software development in HMRC is expected to follow.",    "layout": "product",
+    "hasFrontmatterDate": false,
+    "date": "9 April 2025",
+    "templateContent": "engineering principles these overarching apply across all our work regardless technical specialism read more about standards set out specific expectations teams are expected meet",
+    "url": "/"
+  },  {
+    "title": "Standards",
+"section": "Home",    "layout": "collection",
+    "hasFrontmatterDate": false,
+    "date": "9 April 2025",
+    "templateContent": "our standards set out specific expectations all teams must meet",
+    "url": "/standards/"
+  }]

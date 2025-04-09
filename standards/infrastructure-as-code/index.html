@@ -2,7 +2,7 @@
 <html lang="en" class="govuk-template">
   <head>
     <meta charset="utf-8">
-    <title>Promote flexibility and reusability - HM Revenue & Customs</title>
+    <title>Infrastructure as code - HM Revenue & Customs</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0c0c">
 
@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="/css/base.css">
 
 
-  <meta property="og:title" content="Promote flexibility and reusability">
+  <meta property="og:title" content="Infrastructure as code">
 
   </head>
   <body class="govuk-template__body">
@@ -44,7 +44,7 @@
       <a class="govuk-breadcrumbs__link" href="/">Home</a>
     </li>
     <li class="govuk-breadcrumbs__list-item">
-      <a class="govuk-breadcrumbs__link" href="/engineering-principles/">Engineering principles</a>
+      <a class="govuk-breadcrumbs__link" href="/standards/">Standards</a>
     </li>
   </ol>
 </nav>
@@ -52,7 +52,7 @@
         <main class="govuk-main-wrapper" id="main-content">
   <header class="app-document-header">
   <h1 class="app-document-header__title govuk-heading-xl">
-    Promote flexibility and reusability
+    Infrastructure as code
   </h1>
 
 </header>
@@ -63,20 +63,36 @@
 Last updated: 21 March 2025
 </p>
 <p class="govuk-body-l">
-Enable teams to choose appropriate tools, practices and approaches for the problem they are solving. Encourage the use of reusable components and open standards to improve efficiency, reduce maintenance effort and improve consistency.
+Infrastructure-as-code (IaC) is an approach used to describe how cloud resources should be provisioned and configured in a way that is automated, consistent, and versioned.
 </p>
 <hr class="govuk-section-break--l govuk-section-break--visible">
-<h2 id="motivation" tabindex="-1" class="govuk-heading-l">Motivation</h2>
-<p class="govuk-body">By equipping teams with knowledge of available tools and technologies that can be supported within the organisation, they can make better decisions about the best choice for the problem they are solving. Maintaining a catalogue of reusable components helps them solve common challenges with robust, well-tested solutions in an understood way.</p>
-<hr class="govuk-section-break--l govuk-section-break--visible">
-<h2 id="applying-this-principle" tabindex="-1" class="govuk-heading-l">Applying this principle</h2>
+<h2 id="requirement(s)" tabindex="-1" class="govuk-heading-l">Requirement(s)</h2>
 <ul class="govuk-list govuk-list--bullet">
-<li>Design high-level architectural patterns without overly constraining how these may be implemented in different contexts.</li>
-<li>Avoid premature abstractions that tightly couple different services together unnecessarily.</li>
-<li>Ensure that reusable components have sustainable support to update, document, and maintain them.</li>
-<li>Provide an easy way for teams to identify potentially useful components themselves, for example through developer platforms and documentation.</li>
-<li>Design lightweight governance processes that allow appropriate innovation and experimentation, whilst ensuring organisational standards are still considered.</li>
+<li><a href="#you-must-define-cloud-infrastructure-using-iac-tooling" class="govuk-link">You MUST define cloud infrastructure using IaC tooling</a></li>
+<li><a href="#you-must-store-iac-in-version-control" class="govuk-link">You MUST store IaC in version control</a></li>
+<li><a href="#you-must-apply-infrastructure-changes-through-automated-pipelines" class="govuk-link">You MUST apply infrastructure changes through automated pipelines</a></li>
+<li><a href="#you-must-avoid-making-infrastructure-changes-outside-of-iac" class="govuk-link">You MUST avoid making infrastructure changes outside of IaC</a></li>
+<li><a href="#you-must-make-use-of-iac-testing-and-validation-tools" class="govuk-link">You MUST make use of IaC testing and validation tools</a></li>
+<li><a href="#you-must-follow-security-best-practices-for-your-cloud-platform" class="govuk-link">You MUST follow security best practices for your cloud platform</a></li>
 </ul>
+<h3 id="you-must-define-cloud-infrastructure-using-iac-tooling" tabindex="-1" class="govuk-heading-m">You MUST define cloud infrastructure using IaC tooling</h3>
+<p class="govuk-body">Using IaC to describe how cloud resources should be provisioned allows you to automatically build software systems out of different cloud services. This avoids the need to manual and error prone manual configuration, which may be hard to understand, maintain, and reproduce.</p>
+<h3 id="you-must-store-iac-in-version-control" tabindex="-1" class="govuk-heading-m">You MUST store IaC in version control</h3>
+<p class="govuk-body">Using version control brings similar benefits to infrastructure as it does general software development, such as:</p>
+<ul class="govuk-list govuk-list--bullet">
+<li>Acting as a single source of truth about how infrastructure is configured.</li>
+<li>Enabling multiple engineers to contribute to an overall system simultaneously.</li>
+<li>Providing a record of what changes have been made, when, and by whom.</li>
+<li>Enforcing a level of access control to who can make changes.</li>
+</ul>
+<h3 id="you-must-apply-infrastructure-changes-through-automated-pipelines" tabindex="-1" class="govuk-heading-m">You MUST apply infrastructure changes through automated pipelines</h3>
+<p class="govuk-body">Applying changes to infrastructure through pipelines reduces the risk of human error, allows automated checks to be performed, and can enforce consistent provisioning across different environments.</p>
+<h3 id="you-must-avoid-making-infrastructure-changes-outside-of-iac" tabindex="-1" class="govuk-heading-m">You MUST avoid making infrastructure changes outside of IaC</h3>
+<p class="govuk-body">Changes made to infrastructure outside of IaC can be difficult to understand, track, and reproduce. They may also be unpredictably overridden by subsequent IaC deployments and could cause rollback processes to fail.</p>
+<h3 id="you-must-make-use-of-iac-testing-and-validation-tools" tabindex="-1" class="govuk-heading-m">You MUST make use of IaC testing and validation tools</h3>
+<p class="govuk-body">As IaC is a form of executable specification, it is prone to the same types of human errors as any other sort of code. It should therefore be subject to appropriate testing, to prevent misconfiguration or unexpected results, before it is deployed.</p>
+<h3 id="you-must-follow-security-best-practices-for-your-cloud-platform" tabindex="-1" class="govuk-heading-m">You MUST follow security best practices for your cloud platform</h3>
+<p class="govuk-body">You must ensure that you secure your cloud infrastructure appropriately. For example, employing role-based access control (RBAC) and following the “principle of least privilege” reduces the likelihood and impact of security breaches by ensuring that tools, users and infrastructure are given the minimum permissions required to perform their tasks. Access to additional permissions should only be granted to users for the minimum time necessary to complete a required task, and the granting of these permissions should be audited.</p>
 </div>
 
 
