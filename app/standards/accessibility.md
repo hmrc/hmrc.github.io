@@ -26,6 +26,7 @@ The software we build and procure must be accessible to all users, including tho
 ## Requirement(s)
 - [You MUST include an accessibility statement on websites and in apps](#you-must-include-an-accessibility-statement-on-websites-and-in-apps)
 - [You MUST implement an approach to accessibility testing](#you-must-implement-an-approach-to-accessibility-testing)
+- [You MUST perform your own accessibility testing prior to an accessibility audit](#you-must-perform-your-own-accessibility-testing-prior-to-an-accessibility-audit)
 - [You MUST engage with the relevant HMRC accessibility team](#you-must-engage-with-the-relevant-hmrc-accessibility-team)
 
 ### You MUST include an accessibility statement on websites and in apps
