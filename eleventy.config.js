@@ -40,7 +40,7 @@ module.exports = function(eleventyConfig) {
             text: 'Accessibility statement'
           },
           {
-            href: 'https://github.com/hmrc/engineering-site-spike',
+            href: 'https://github.com/hmrc/hmrc.github.io',
             text: 'Github repository'
           }
         ]
