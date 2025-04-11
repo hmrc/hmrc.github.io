@@ -11,6 +11,8 @@ related:
               href: https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps#when-you-need-to-meet-these-regulations
             - text: Make your website or app accessible and publish an accessibility statement - GOV.UK
               href: https://www.gov.uk/guidance/make-your-website-or-app-accessible-and-publish-an-accessibility-statement
+            - text: Accessibility guidance - Digital Inclusion and Accessibility Standards team
+              href: https://github.com/hmrc/accessibility
 ---
 
 <p class="govuk-body-s">
@@ -18,7 +20,7 @@ Last updated: {{ date | postDate }}
 </p>
 
 <p class="govuk-body-l">
-The software we build and procure must be accessible to all users, including those who use assistive technology like screen readers.
+The software we build and procure must be accessible to all users, including those who use assistive technology like screen readers. This includes meeting the <a href="https://www.w3.org/TR/WCAG22/">Web Content Accessibility Guidelines (WCAG) 2.2 AA</a> standard.
 </p>
 
 <hr class="govuk-section-break--l govuk-section-break--visible">
@@ -43,4 +45,9 @@ Accessibility audits are time consuming and should be focussed on finding comple
 
 ### You MUST engage with the relevant HMRC accessibility team
 
-HMRC has two teams responsible for undertaking accessibility audits and producing accessibility statements that meet legal and policy requirements, as well as providing guidance around accessibility more generally. You should follow guidance relevant to your area to determine which team you need to work with to arrange an audit and to get an accessibility statement produced.
+HMRC has two teams responsible for undertaking accessibility audits and producing accessibility statements that meet legal and policy requirements, as well as providing expert guidance around accessibility.
+
+The team you should engage depends upon who your product or service is for:
+
+- Products and services only for internal staff are tested by the Assistive Technology Testing team, as part of the Internal Accessibility Centre of Excellence (IACoE).
+- Products and services with any public-facing parts are tested by the Digital Inclusion and Accessibility Standards team (DIAS).
