@@ -59,7 +59,7 @@
 "section": "standards",    "layout": "page",
     "hasFrontmatterDate": true,
     "date": "21 March 2025",
-    "templateContent": "last updated: 21 march 2025 software build procure must accessible all users including those who use assistive technology like screen readers requirement s include accessibility statement websites apps implement approach testing perform your own prior audit engage with relevant hmrc team helps better understand how they can interact website app any difficulties may face when try also provides information about report further problems help iterate improve there are range different freely available tools identify some types issues these allow reduce risk introducing that cause releasing changes production manual automated way should ensure performed regularly audits time consuming focussed finding complex have expertise find yourself through rarely simple failures will identified by regular two teams responsible undertaking producing statements meet legal policy requirements well providing guidance around more generally follow area determine which need work arrange get produced",
+    "templateContent": "last updated: 21 march 2025 software build procure must accessible all users including those who use assistive technology like screen readers this includes meeting web content accessibility guidelines wcag 2.2 aa standard requirement s include statement websites apps implement approach testing perform your own prior audit engage with relevant hmrc team helps better understand how they can interact website app any difficulties may face when try also provides information about report further problems help iterate improve there are range different freely available tools identify some types issues these allow reduce risk introducing that cause releasing changes production manual automated way should ensure performed regularly audits time consuming focussed finding complex have expertise find yourself through rarely simple failures will identified by regular two teams responsible undertaking producing statements meet legal policy requirements well providing expert guidance around depends upon product service : products services only internal staff tested part centre excellence iacoe public facing parts digital inclusion standards dias",
     "url": "/standards/accessibility/"
   },  {
     "title": "Auditing",
@@ -156,42 +156,42 @@
     "title": "About",
 "section": "Home",    "layout": "page",
     "hasFrontmatterDate": false,
-    "date": "10 April 2025",
+    "date": "11 April 2025",
     "templateContent": "single point reference guide all software development across hmrc purpose makes use range different technologies its estate however believe there are unifying principles standards practices that apply broadly these this site meant provide singular both staff suppliers alike help improve quality consistency areas organisation some contexts may feasible sensible standardised way should consider guidance within context which working who responsible been developed by management practice collaboration between chief engineering platform office cepo digital product cdpo discuss content here including suggestions changes additions please feel free raise issue our github repository",
     "url": "/about/"
   },  {
     "title": "Accessibility statement for Engineering guidance",
 "section": "Home",    "layout": "page",
     "hasFrontmatterDate": false,
-    "date": "10 April 2025",
+    "date": "11 April 2025",
     "templateContent": "this accessibility statement explains how accessible service what have difficulty using report problems with part wider gov.uk website there separate main site provides singular point reference unifying principles standards practices that apply across broad range technologies used estate compliant web content guidelines version 2.2 aa standard yet been checked compliance some users may find parts difficult use",
     "url": "/accessibility-statement/"
   },  {
     "title": "Cookie settings",
 "section": "Home",    "layout": "page",
     "hasFrontmatterDate": false,
-    "date": "10 April 2025",
+    "date": "11 April 2025",
     "templateContent": "cookies are files saved your phone tablet computer when visit website use this",
     "url": "/cookies/"
   },  {
     "title": "Engineering principles",
 "section": "Home",    "layout": "collection",
     "hasFrontmatterDate": false,
-    "date": "10 April 2025",
+    "date": "11 April 2025",
     "templateContent": "our principles serve foundation way work inform choices that make they should apply regardless product platform technology",
     "url": "/engineering-principles/"
   },  {
     "title": "Engineering Guidance",
 "description": "Discover more about the engineering standards all software development in HMRC is expected to follow.",    "layout": "product",
     "hasFrontmatterDate": false,
-    "date": "10 April 2025",
+    "date": "11 April 2025",
     "templateContent": "engineering principles these overarching apply across all our work regardless technical specialism read more about standards set out specific expectations teams are expected meet",
     "url": "/"
   },  {
     "title": "Standards",
 "section": "Home",    "layout": "collection",
     "hasFrontmatterDate": false,
-    "date": "10 April 2025",
+    "date": "11 April 2025",
     "templateContent": "our standards set out specific expectations all teams must meet",
     "url": "/standards/"
   }]
