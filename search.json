@@ -153,45 +153,52 @@
     "templateContent": "last updated: 21 march 2025 effective use version control system requires agreement around how will used including considering specific context application requirement s must ensure can always build artefact from your source code have way enable multiple contributors enforce commit signing repositories prevent direct changes main branch define adhere branching strategy plan rolling back fixing forward should able built into that deployed this means new changed functionality merged until work completed been tested appropriately may want consider configuration such feature flags merge without making those subsequent point time when they enabled through values systems are very highlighting situations where same by different authors cannot combined however understand resolve these safely technology using otherwise avoid them example communication within team difficult achieve with platform become significantly worse number increases makes public private key cryptography give extra confidence being committed authorised individual adding cryptographic signature verified server which reject any invalid missing signatures minimum enforced all branches deploy artefacts environments prevented appropriate processes reviews automated tests succeeded helps buildable deployable state also prevents single user change themselves platforms toolsets constrain apply trunk based workflow follow consistent tools make documented approach well understood agreed members unexpected issues found during after deployment intend roll affects users who already started updated externalised database fix specifically caters need create hotfix versions history longer",
     "url": "/standards/version-control/"
   },  {
+    "title": "Configuration management",
+"section": "standards",    "layout": "page",
+    "hasFrontmatterDate": true,
+    "date": "22 April 2025",
+    "templateContent": "last updated: 22 april 2025 configuration used change behaviour software without changing underlying code poorly managed can cause problems just easily requirement s must use version control all record what current state test changes ensure are reviewed consider when more appropriate than allows see were made by who some contexts also enable multiple people safely contribute same facilitates rolling back event failed deployments defining previous known working able effectively investigate easy understand currently place given environment combining this with information about deployed greatly increases likelihood that problem reproduced allowing potential fixes properly tested incorrectly configured will behave expected think how best example through automated manual testing could performed local development pre production specific single such usernames passwords cryptographic keys these cases should have proven values passed api requests integration tests then know observability tooling confirm correct once reduces both risk mistakes being unauthorised typically harder efficiently usually much higher level abstraction specifying complex bugs introduced especially interaction between needs considered",
+    "url": "/standards/configuration/"
+  },  {
     "title": "About",
 "section": "Home",    "layout": "page",
     "hasFrontmatterDate": false,
-    "date": "11 April 2025",
+    "date": "22 April 2025",
     "templateContent": "single point reference guide all software development across hmrc purpose makes use range different technologies its estate however believe there are unifying principles standards practices that apply broadly these this site meant provide singular both staff suppliers alike help improve quality consistency areas organisation some contexts may feasible sensible standardised way should consider guidance within context which working who responsible been developed by management practice collaboration between chief engineering platform office cepo digital product cdpo discuss content here including suggestions changes additions please feel free raise issue our github repository",
     "url": "/about/"
   },  {
     "title": "Accessibility statement for Engineering guidance",
 "section": "Home",    "layout": "page",
     "hasFrontmatterDate": false,
-    "date": "11 April 2025",
+    "date": "22 April 2025",
     "templateContent": "this accessibility statement explains how accessible service what have difficulty using report problems with part wider gov.uk website there separate main site provides singular point reference unifying principles standards practices that apply across broad range technologies used estate compliant web content guidelines version 2.2 aa standard yet been checked compliance some users may find parts difficult use",
     "url": "/accessibility-statement/"
   },  {
     "title": "Cookie settings",
 "section": "Home",    "layout": "page",
     "hasFrontmatterDate": false,
-    "date": "11 April 2025",
+    "date": "22 April 2025",
     "templateContent": "cookies are files saved your phone tablet computer when visit website use this",
     "url": "/cookies/"
   },  {
     "title": "Engineering principles",
 "section": "Home",    "layout": "collection",
     "hasFrontmatterDate": false,
-    "date": "11 April 2025",
+    "date": "22 April 2025",
     "templateContent": "our principles serve foundation way work inform choices that make they should apply regardless product platform technology",
     "url": "/engineering-principles/"
   },  {
     "title": "Engineering Guidance",
 "description": "Discover more about the engineering standards all software development in HMRC is expected to follow.",    "layout": "product",
     "hasFrontmatterDate": false,
-    "date": "11 April 2025",
+    "date": "22 April 2025",
     "templateContent": "engineering principles these overarching apply across all our work regardless technical specialism read more about standards set out specific expectations teams are expected meet",
     "url": "/"
   },  {
     "title": "Standards",
 "section": "Home",    "layout": "collection",
     "hasFrontmatterDate": false,
-    "date": "11 April 2025",
+    "date": "22 April 2025",
     "templateContent": "our standards set out specific expectations all teams must meet",
     "url": "/standards/"
   }]
