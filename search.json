@@ -167,6 +167,13 @@
     "templateContent": "last updated: 22 april 2025 secrets such usernames api keys must handled appropriately prevent serious events data loss unauthorised access requirement s include source code limit scope able rotate secret secure by using tooling provide software with deployment time rather than hard coding them significantly reduce accidentally disclosed because they are only exposed itself engineers this also allows change values more quickly bound creating new release version can redeploy same value limited much reasonable example should shared across different environments set specific resources needed given service reduces impact disclosures reducing what party use needs revoked rotated having granular that per environment greatly minimise restore other services need either part periodic process response known suspected disclosure well documented understood all required parties where possible automate handle protected may management tool restricts through role based controls relevant encrypt suitable encryption algorithm however means then consider how when key store securely",
     "url": "/standards/handling-secrets/"
   },  {
+    "title": "Customer support",
+"section": "standards",    "layout": "page",
+    "hasFrontmatterDate": true,
+    "date": "23 April 2025",
+    "templateContent": "last updated: 23 april 2025 all software should have appropriate customer support model ensure that user's can both receive when they face issues provide feedback requirement s must agree who responsible supporting users make clear where get analyse requests trends patterns place defines responding resolving from applying devops approach this always include engineering team building operating may also other tiers understood agreed across relevant stakeholders example policy business area cdio clearly signposting most route helps them resolutions more quickly reduces overhead might incurred directing between different offerings think about ways which fail consider how direct each circumstance help identify improve your reduce number facing problems succeed first time",
+    "url": "/standards/customer-support/"
+  },  {
     "title": "About",
 "section": "Home",    "layout": "page",
     "hasFrontmatterDate": false,
