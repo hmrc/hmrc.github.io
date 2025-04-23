@@ -24,6 +24,8 @@ We all have a responsibility to ensuring we handle user data appropriately, and 
 ## Requirement(s)
 - [You MUST limit the people and applications with access to user data](#you-must-limit-the-people-and-applications-with-access-to-user-data)
 - [You MUST only capture necessary data](#you-must-only-capture-necessary-data)
+- [You MUST only retain data whilst needed](#you-must-only-retain-data-whilst-needed)
+- [You MUST apply encryption to sensitive data](#you-must-apply-encryption-to-sensitive-data)
 
 ### You MUST limit the people and applications with access to user data
 
