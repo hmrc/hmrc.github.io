@@ -160,45 +160,52 @@
     "templateContent": "last updated: 22 april 2025 configuration used change behaviour software without changing underlying code poorly managed can cause problems just easily requirement s must use version control all record what current state test changes ensure are reviewed consider when more appropriate than allows see were made by who some contexts also enable multiple people safely contribute same facilitates rolling back event failed deployments defining previous known working able effectively investigate easy understand currently place given environment combining this with information about deployed greatly increases likelihood that problem reproduced allowing potential fixes properly tested incorrectly configured will behave expected think how best example through automated manual testing could performed local development pre production specific single such usernames passwords cryptographic keys these cases should have proven values passed api requests integration tests then know observability tooling confirm correct once reduces both risk mistakes being unauthorised typically harder efficiently usually much higher level abstraction specifying complex bugs introduced especially interaction between needs considered",
     "url": "/standards/configuration/"
   },  {
+    "title": "Handling secrets",
+"section": "standards",    "layout": "page",
+    "hasFrontmatterDate": true,
+    "date": "22 April 2025",
+    "templateContent": "last updated: 22 april 2025 secrets such usernames api keys must handled appropriately prevent serious events data loss unauthorised access requirement s include source code limit scope able rotate secret secure by using tooling provide software with deployment time rather than hard coding them significantly reduce accidentally disclosed because they are only exposed itself engineers this also allows change values more quickly bound creating new release version can redeploy same value limited much reasonable example should shared across different environments set specific resources needed given service reduces impact disclosures reducing what party use needs revoked rotated having granular that per environment greatly minimise restore other services need either part periodic process response known suspected disclosure well documented understood all required parties where possible automate handle protected may management tool restricts through role based controls relevant encrypt suitable encryption algorithm however means then consider how when key store securely",
+    "url": "/standards/handling-secrets/"
+  },  {
     "title": "About",
 "section": "Home",    "layout": "page",
     "hasFrontmatterDate": false,
-    "date": "22 April 2025",
+    "date": "23 April 2025",
     "templateContent": "single point reference guide all software development across hmrc purpose makes use range different technologies its estate however believe there are unifying principles standards practices that apply broadly these this site meant provide singular both staff suppliers alike help improve quality consistency areas organisation some contexts may feasible sensible standardised way should consider guidance within context which working who responsible been developed by management practice collaboration between chief engineering platform office cepo digital product cdpo discuss content here including suggestions changes additions please feel free raise issue our github repository",
     "url": "/about/"
   },  {
     "title": "Accessibility statement for Engineering guidance",
 "section": "Home",    "layout": "page",
     "hasFrontmatterDate": false,
-    "date": "22 April 2025",
+    "date": "23 April 2025",
     "templateContent": "this accessibility statement explains how accessible service what have difficulty using report problems with part wider gov.uk website there separate main site provides singular point reference unifying principles standards practices that apply across broad range technologies used estate compliant web content guidelines version 2.2 aa standard yet been checked compliance some users may find parts difficult use",
     "url": "/accessibility-statement/"
   },  {
     "title": "Cookie settings",
 "section": "Home",    "layout": "page",
     "hasFrontmatterDate": false,
-    "date": "22 April 2025",
+    "date": "23 April 2025",
     "templateContent": "cookies are files saved your phone tablet computer when visit website use this",
     "url": "/cookies/"
   },  {
     "title": "Engineering principles",
 "section": "Home",    "layout": "collection",
     "hasFrontmatterDate": false,
-    "date": "22 April 2025",
+    "date": "23 April 2025",
     "templateContent": "our principles serve foundation way work inform choices that make they should apply regardless product platform technology",
     "url": "/engineering-principles/"
   },  {
     "title": "Engineering Guidance",
 "description": "Discover more about the engineering standards all software development in HMRC is expected to follow.",    "layout": "product",
     "hasFrontmatterDate": false,
-    "date": "22 April 2025",
+    "date": "23 April 2025",
     "templateContent": "engineering principles these overarching apply across all our work regardless technical specialism read more about standards set out specific expectations teams are expected meet",
     "url": "/"
   },  {
     "title": "Standards",
 "section": "Home",    "layout": "collection",
     "hasFrontmatterDate": false,
-    "date": "22 April 2025",
+    "date": "23 April 2025",
     "templateContent": "our standards set out specific expectations all teams must meet",
     "url": "/standards/"
   }]

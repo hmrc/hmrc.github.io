@@ -2,7 +2,7 @@
 <html lang="en" class="govuk-template">
   <head>
     <meta charset="utf-8">
-    <title> - HM Revenue & Customs</title>
+    <title>Handling secrets - HM Revenue & Customs</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0c0c">
 
@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="/css/base.css">
 
 
-  <meta property="og:title" content="">
+  <meta property="og:title" content="Handling secrets">
 
   </head>
   <body class="govuk-template__body">
@@ -38,75 +38,56 @@
   
 
       <div class="govuk-width-container">
-  
+  <nav class="govuk-breadcrumbs govuk-!-display-none-print" aria-label="Breadcrumb">
+  <ol class="govuk-breadcrumbs__list">
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="/">Home</a>
+    </li>
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="/standards/">Standards</a>
+    </li>
+  </ol>
+</nav>
+
         <main class="govuk-main-wrapper" id="main-content">
-<div class="govuk-grid-row">
-  <div class="govuk-grid-column-two-thirds">
-    <header class="app-document-header">
+  <header class="app-document-header">
   <h1 class="app-document-header__title govuk-heading-xl">
-    Sitemap
+    Handling secrets
   </h1>
 
 </header>
 
 
 
-    
-
-      <div class="govuk-!-margin-bottom-4">
-        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
-          <a class="govuk-link" href="/about/">About</a>
-        </h2>
-        
-      </div>
-      <div class="govuk-!-margin-bottom-4">
-        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
-          <a class="govuk-link" href="/accessibility-statement/">Accessibility statement for Engineering guidance</a>
-        </h2>
-        
-      </div>
-      <div class="govuk-!-margin-bottom-4">
-        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
-          <a class="govuk-link" href="/cookies/">Cookie settings</a>
-        </h2>
-        
-      </div>
-      <div class="govuk-!-margin-bottom-4">
-        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
-          <a class="govuk-link" href="/engineering-principles/">Engineering principles</a>
-        </h2>
-        <ul class="app-contents-list govuk-!-margin-left-4"><li><a href="/engineering-principles/adhere-to-standards/">Adhere to standards and best practices</a></li>
-<li><a href="/engineering-principles/build-for-testing/">Build with testing in mind</a></li>
-<li><a href="/engineering-principles/flexibility-and-reusability/">Promote flexibility and reusability</a></li>
-<li><a href="/engineering-principles/foster-collaboration/">Foster collaboration and transparency</a></li>
-<li><a href="/engineering-principles/invest-and-innovate/">Invest in long-term quality and innovation</a></li>
-<li><a href="/engineering-principles/iterative-approach/">Adopt iterative, risk-based approaches</a></li>
-<li><a href="/engineering-principles/prioritise-the-end-user/">Prioritise the end user</a></li>
-<li><a href="/engineering-principles/take-ownership/">Take ownership of quality and delivery</a></li></ul>
-      </div>
-      <div class="govuk-!-margin-bottom-4">
-        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
-          <a class="govuk-link" href="/standards/">Standards</a>
-        </h2>
-        <ul class="app-contents-list govuk-!-margin-left-4"><li><a href="/standards/accessibility/">Accessibility</a></li>
-<li><a href="/standards/audit/">Auditing</a></li>
-<li><a href="/standards/availability/">Availability</a></li>
-<li><a href="/standards/build-pipelines/">Build pipelines</a></li>
-<li><a href="/standards/certificate-management/">Certificate management</a></li>
-<li><a href="/standards/cookies/">Cookies</a></li>
-<li><a href="/standards/data-privacy/">Data privacy</a></li>
-<li><a href="/standards/deployment-records/">Deployment records</a></li>
-<li><a href="/standards/development-enviroment/">Development environments</a></li>
-<li><a href="/standards/infrastructure-as-code/">Infrastructure as code</a></li>
-<li><a href="/standards/observability/">Observability</a></li>
-<li><a href="/standards/software-licensing/">Software licensing</a></li>
-<li><a href="/standards/test-automation/">Test automation</a></li>
-<li><a href="/standards/version-control/">Version control</a></li>
-<li><a href="/standards/configuration/">Configuration management</a></li>
-<li><a href="/standards/handling-secrets/">Handling secrets</a></li></ul>
-      </div>
-  </div>
+  <div class="app-prose-scope"><p class="govuk-body-s">
+Last updated: 22 April 2025
+</p>
+<p class="govuk-body-l">
+Secrets, such as usernames and API keys, must be handled appropriately to prevent serious events such as data loss or unauthorised access.
+</p>
+<hr class="govuk-section-break--l govuk-section-break--visible">
+<h2 id="requirement(s)" tabindex="-1" class="govuk-heading-l">Requirement(s)</h2>
+<ul class="govuk-list govuk-list--bullet">
+<li><a href="#you-must-not-include-secrets-in-source-code" class="govuk-link">You MUST not include secrets in source code</a></li>
+<li><a href="#you-must-limit-the-scope-of-secrets" class="govuk-link">You MUST limit the scope of secrets</a></li>
+<li><a href="#you-must-be-able-to-rotate-secret-keys" class="govuk-link">You MUST be able to rotate secret keys</a></li>
+<li><a href="#you-must-secure-secrets-appropriately" class="govuk-link">You MUST secure secrets appropriately</a></li>
+</ul>
+<h3 id="you-must-not-include-secrets-in-source-code" tabindex="-1" class="govuk-heading-m">You MUST not include secrets in source code</h3>
+<p class="govuk-body">By using tooling to provide software with secrets at deployment time, rather than hard-coding them in source code, you significantly reduce the scope for secrets to be accidentally disclosed because they are only exposed to the software itself rather than engineers.</p>
+<p class="govuk-body">This also allows you to change values of secrets more quickly, as you are not bound to creating a new release version of the software to change a secret – you can change the secret and redeploy the same version of the software.</p>
+<h3 id="you-must-limit-the-scope-of-secrets" tabindex="-1" class="govuk-heading-m">You MUST limit the scope of secrets</h3>
+<p class="govuk-body">The value of a secret must be limited in scope as much as is reasonable. For example, secrets should not be shared across different deployment environments and should only provide access to the limited set of specific resources needed for a given service. This reduces the impact of secret disclosures by reducing what an unauthorised party can use the secret for.</p>
+<p class="govuk-body">If a secret needs to be revoked and rotated, having granular secrets that are per-environment and per-service can greatly minimise the time needed to restore the service and reduces the impact on other services.</p>
+<h3 id="you-must-be-able-to-rotate-secret-keys" tabindex="-1" class="govuk-heading-m">You MUST be able to rotate secret keys</h3>
+<p class="govuk-body">You need to be able to rotate secrets – either as part of a periodic process or in response to a known or suspected disclosure. The process for this should be well-documented and understood by all required parties. Where possible, you should automate this process to reduce the need for engineers to handle secret values.</p>
+<h3 id="you-must-secure-secrets-appropriately" tabindex="-1" class="govuk-heading-m">You MUST secure secrets appropriately</h3>
+<p class="govuk-body">Secret values should be appropriately protected. For example, you may use a secret management tool that restricts access to secret values through role-based access controls, and only provide access to the relevant software itself.</p>
+<p class="govuk-body">You may also encrypt secrets using a suitable encryption algorithm, however this means you must then consider how and when to rotate the encryption key, and how to store that key securely.</p>
 </div>
+
+
+
         </main>
       </div>
 
