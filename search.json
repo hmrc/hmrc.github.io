@@ -101,7 +101,7 @@
 "section": "standards",    "layout": "page",
     "hasFrontmatterDate": true,
     "date": "21 March 2025",
-    "templateContent": "last updated: 21 march 2025 all have responsibility ensuring handle user data appropriately line with legislation such uk gpdr requirement s must limit people applications access only capture necessary when are storing always identify that strictly these this should also reviewed periodically wherever possible preferable prevent directly instead restrict tooling can apply appropriate role based control auditing where stored infrastructure shared across different database cluster ensure partitioned between services example by per application credentials reduce risk one compromised leak associated another facilitate transfers performed apis rather than through state filesystem minimisation principle states personal captured adequate relevant limited what means gather irrelevant from users able explain purpose there protection impact assessment dpia place your software accurately describes how handled used retain whilst needed storage limitation kept longer understand context put controls enforced test work expected encryption sensitive being exposed causes great harm individuals approach reduces any leaked compromising useful malicious decrypting requires key available encrypted transit rest",
+    "templateContent": "last updated: 21 march 2025 all have responsibility ensuring handle user data appropriately line with legislation such uk gpdr requirement s must limit people applications access only capture necessary retain whilst needed apply encryption sensitive when are storing always identify that strictly these this should also reviewed periodically wherever possible preferable prevent directly instead restrict tooling can appropriate role based control auditing where stored infrastructure shared across different database cluster ensure partitioned between services example by per application credentials reduce risk one compromised leak associated another facilitate transfers performed apis rather than through state filesystem minimisation principle states personal captured adequate relevant limited what means gather irrelevant from users able explain purpose there protection impact assessment dpia place your software accurately describes how handled used storage limitation kept longer understand context put controls enforced test work expected being exposed causes great harm individuals approach reduces any leaked compromising useful malicious decrypting requires key available encrypted transit rest",
     "url": "/standards/data-privacy/"
   },  {
     "title": "Deployment records",
@@ -136,14 +136,14 @@
 "section": "standards",    "layout": "page",
     "hasFrontmatterDate": true,
     "date": "21 March 2025",
-    "templateContent": "last updated: 21 march 2025 software licenses are legal agreements that define how can used modified distributed must aware implications licences build buy requirement s include licensing information with all should have licence defines understand requirements choose such including copyright headers files particular way this usually involves specifying through file version control unsure most appropriate apply seek advice who owns intellectual property built regardless whether internally support from service providers bought ownership involved especially important during contract transitions where documentation owned by hmrc transferred easily reducing risk interruptions adhere open source code depend upon there many different types may applied libraries wish use these vary significantly impact your own modifications make library therefore any consider publishing repository following standard 12 cross government behind our services openly available people reused adapt possible under appropriately permissive release able justify reason why example relate unannounced policy",
+    "templateContent": "last updated: 21 march 2025 software licenses are legal agreements that define how can used modified distributed must aware implications licences build buy requirement s include licensing information with all understand who owns intellectual property built adhere open source code depend upon consider publishing your repository should have licence defines requirements choose such including copyright headers files particular way this usually involves specifying through file version control unsure most appropriate apply seek advice regardless whether internally support from service providers bought ownership involved especially important during contract transitions where documentation owned by hmrc transferred easily reducing risk interruptions there many different types may applied libraries wish use these vary significantly impact own modifications make library therefore any following standard 12 cross government behind our services openly available people reused adapt possible under appropriately permissive release able justify reason why example relate unannounced policy",
     "url": "/standards/software-licensing/"
   },  {
     "title": "Test automation",
 "section": "standards",    "layout": "page",
     "hasFrontmatterDate": true,
     "date": "21 March 2025",
-    "templateContent": "last updated: 21 march 2025 automating tests helps increase accuracy reproducibility reduces test execution effort enables continuous integration deployment practices that allow value released users more frequently with confidence requirement s must identify appropriate levels testing automate depending software under will able gain from range such : unit user interface driven performance accessibility security consider whether automation code configuration automated created then maintained over time like application therefore important costs benefits different how many those rather than all reduce duplication between have vastly possible functionality correct using faster running this should preferred same multiple gives quickly diminishing returns avoided can facilitated by having development professionals pairing working closely together they collectively decide best approach given change run regularly provide most when are often enough detect new defects potential regressions ideally every made make easy which caused failure occur manage size packs very large sets take longer less immediate feedback impact upon release cadence too greatly people opt them ignore results maintain flaky sometimes fail even though there been relevant changes base investigate these mitigate causes flakiness lose pack also increases likelihood genuine ignored may incorrectly attributed",
+    "templateContent": "last updated: 21 march 2025 automating tests helps increase accuracy reproducibility reduces test execution effort enables continuous integration deployment practices that allow value released users more frequently with confidence requirement s must identify appropriate levels testing automate consider whether automation reduce duplication between different run automated regularly manage size packs over time maintain flaky depending software under will able gain from range such : unit user interface driven performance accessibility security code configuration created then maintained like application therefore important costs benefits how many those rather than all have vastly possible functionality correct using faster running this should preferred same multiple gives quickly diminishing returns avoided can facilitated by having development professionals pairing working closely together they collectively decide best approach given change provide most when are often enough detect new defects potential regressions ideally every made make easy which caused failure occur very large sets take longer less immediate feedback impact upon release cadence too greatly people opt them ignore results sometimes fail even though there been relevant changes base investigate these mitigate causes flakiness lose pack also increases likelihood genuine ignored may incorrectly attributed",
     "url": "/standards/test-automation/"
   },  {
     "title": "Version control",
@@ -177,42 +177,42 @@
     "title": "About",
 "section": "Home",    "layout": "page",
     "hasFrontmatterDate": false,
-    "date": "23 April 2025",
+    "date": "24 April 2025",
     "templateContent": "single point reference guide all software development across hmrc purpose makes use range different technologies its estate however believe there are unifying principles standards practices that apply broadly these this site meant provide singular both staff suppliers alike help improve quality consistency areas organisation some contexts may feasible sensible standardised way should consider guidance within context which working who responsible been developed by management practice collaboration between chief engineering platform office cepo digital product cdpo discuss content here including suggestions changes additions please feel free raise issue our github repository",
     "url": "/about/"
   },  {
     "title": "Accessibility statement for Engineering guidance",
 "section": "Home",    "layout": "page",
     "hasFrontmatterDate": false,
-    "date": "23 April 2025",
+    "date": "24 April 2025",
     "templateContent": "this accessibility statement explains how accessible service what have difficulty using report problems with part wider gov.uk website there separate main site provides singular point reference unifying principles standards practices that apply across broad range technologies used estate compliant web content guidelines version 2.2 aa standard yet been checked compliance some users may find parts difficult use",
     "url": "/accessibility-statement/"
   },  {
     "title": "Cookie settings",
 "section": "Home",    "layout": "page",
     "hasFrontmatterDate": false,
-    "date": "23 April 2025",
+    "date": "24 April 2025",
     "templateContent": "cookies are files saved your phone tablet computer when visit website use this",
     "url": "/cookies/"
   },  {
     "title": "Engineering principles",
 "section": "Home",    "layout": "collection",
     "hasFrontmatterDate": false,
-    "date": "23 April 2025",
+    "date": "24 April 2025",
     "templateContent": "our principles serve foundation way work inform choices that make they should apply regardless product platform technology",
     "url": "/engineering-principles/"
   },  {
     "title": "Engineering Guidance",
 "description": "Discover more about the engineering standards all software development in HMRC is expected to follow.",    "layout": "product",
     "hasFrontmatterDate": false,
-    "date": "23 April 2025",
+    "date": "24 April 2025",
     "templateContent": "engineering principles these overarching apply across all our work regardless technical specialism read more about standards set out specific expectations teams are expected meet",
     "url": "/"
   },  {
     "title": "Standards",
 "section": "Home",    "layout": "collection",
     "hasFrontmatterDate": false,
-    "date": "23 April 2025",
+    "date": "24 April 2025",
     "templateContent": "our standards set out specific expectations all teams must meet",
     "url": "/standards/"
   }]
