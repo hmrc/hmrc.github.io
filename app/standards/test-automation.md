@@ -16,7 +16,12 @@ Automating tests helps increase the accuracy and reproducibility of tests, reduc
 <hr class="govuk-section-break--l govuk-section-break--visible">
 
 ## Requirement(s)
-
+- [You MUST identify appropriate levels of testing to automate](#you-must-identify-appropriate-levels-of-testing-to-automate)
+- [You MUST consider whether automation is appropriate](#you-must-consider-whether-automation-is-appropriate)
+- [You MUST reduce duplication between different levels of testing](#you-must-identify-appropriate-levels-of-testing-to-automate)
+- [You MUST run automated tests regularly](#you-must-run-automated-tests-regularly)
+- [You MUST manage the size of test packs over time](#you-must-manage-the-size-of-test-packs-over-time)
+- [You MUST maintain test packs to reduce flaky tests](#you-must-maintain-test-packs-to-reduce-flaky-tests)
 
 ### You MUST identify appropriate levels of testing to automate
 

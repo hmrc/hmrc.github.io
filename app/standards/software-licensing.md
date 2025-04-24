@@ -15,7 +15,10 @@ Software licenses are legal agreements that define how software can be used, mod
 <hr class="govuk-section-break--l govuk-section-break--visible">
 
 ## Requirement(s)
-
+- [You MUST include licensing information with all software](#you-must-include-licensing-information-with-all-software)
+- [You MUST understand who owns the intellectual property of software built](#you-must-understand-who-owns-the-intellectual-property-of-software-built)
+- [You MUST understand and adhere to the licences of open source code you depend upon](#you-must-understand-and-adhere-to-the-licences-of-open-source-code-you-depend-upon)
+- [You MUST consider publishing your code in an open source repository](#you-must-consider-publishing-your-code-in-an-open-source-repository)
 
 ### You MUST include licensing information with all software
 
