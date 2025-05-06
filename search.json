@@ -174,45 +174,52 @@
     "templateContent": "last updated: 23 april 2025 all software should have appropriate customer support model ensure that user's can both receive when they face issues provide feedback requirement s must agree who responsible supporting users make clear where get analyse requests trends patterns place defines responding resolving from applying devops approach this always include engineering team building operating may also other tiers understood agreed across relevant stakeholders example policy business area cdio clearly signposting most route helps them resolutions more quickly reduces overhead might incurred directing between different offerings think about ways which fail consider how direct each circumstance help identify improve your reduce number facing problems succeed first time",
     "url": "/standards/customer-support/"
   },  {
+    "title": "Dependency management",
+"section": "standards",    "layout": "page",
+    "hasFrontmatterDate": true,
+    "date": "25 April 2025",
+    "templateContent": "last updated: 25 april 2025 managing dependencies your software code key part ensuring maintainable secure requirement s must version all consider suitability new benefits each dependency able produce list keep date monitor vulnerabilities impact prevent known vulnerable being used test appropriately after updating store artefacts suitable repository fetch from trustworthy source versioning ensures that builds are reproducible identify exactly included given also important help manage how updates changes integrated into own application introducing will make reliant upon its contributors future including their ability resolve security issues before review actively maintained example by reviewing number organisations maintain when released frequently introduced whether bug reports responded additional introduce makes increasingly other this introduces risks such migration effort required longer possibility malicious should functionality gain sufficiently offsets any knowing what essential ensure they kept versions avoided can achieved producing bill materials document describes component parts were create updated receive fixes features quickly applying often even directly provide value reduce time taken respond more critical there fewer many scanning tools have referring databases common exposures cves which describe problems been identified particular these understand one problem context made use become aware vulnerability investigate may affect affects mitigations already place defer until next regular update following business usual approach affected likely need take action urgently most serious case include temporarily making unavailable users whilst applied avoid risk exploited through tooling with exploitable cannot built deployed old mistake incentivise people confident unexpected change behaviour works alongside expected would usually easily appropriate automated tests verify functions correctly versioned using management never manually download copy prone human error add where fetched form artefact immutably stored specific retrieved",
+    "url": "/standards/dependency-management/"
+  },  {
     "title": "About",
 "section": "Home",    "layout": "page",
     "hasFrontmatterDate": false,
-    "date": "24 April 2025",
+    "date": "6 May 2025",
     "templateContent": "single point reference guide all software development across hmrc purpose makes use range different technologies its estate however believe there are unifying principles standards practices that apply broadly these this site meant provide singular both staff suppliers alike help improve quality consistency areas organisation some contexts may feasible sensible standardised way should consider guidance within context which working who responsible been developed by management practice collaboration between chief engineering platform office cepo digital product cdpo discuss content here including suggestions changes additions please feel free raise issue our github repository",
     "url": "/about/"
   },  {
     "title": "Accessibility statement for Engineering guidance",
 "section": "Home",    "layout": "page",
     "hasFrontmatterDate": false,
-    "date": "24 April 2025",
+    "date": "6 May 2025",
     "templateContent": "this accessibility statement explains how accessible service what have difficulty using report problems with part wider gov.uk website there separate main site provides singular point reference unifying principles standards practices that apply across broad range technologies used estate compliant web content guidelines version 2.2 aa standard yet been checked compliance some users may find parts difficult use",
     "url": "/accessibility-statement/"
   },  {
     "title": "Cookie settings",
 "section": "Home",    "layout": "page",
     "hasFrontmatterDate": false,
-    "date": "24 April 2025",
+    "date": "6 May 2025",
     "templateContent": "cookies are files saved your phone tablet computer when visit website use this",
     "url": "/cookies/"
   },  {
     "title": "Engineering principles",
 "section": "Home",    "layout": "collection",
     "hasFrontmatterDate": false,
-    "date": "24 April 2025",
+    "date": "6 May 2025",
     "templateContent": "our principles serve foundation way work inform choices that make they should apply regardless product platform technology",
     "url": "/engineering-principles/"
   },  {
     "title": "Engineering Guidance",
 "description": "Discover more about the engineering standards all software development in HMRC is expected to follow.",    "layout": "product",
     "hasFrontmatterDate": false,
-    "date": "24 April 2025",
+    "date": "6 May 2025",
     "templateContent": "engineering principles these overarching apply across all our work regardless technical specialism read more about standards set out specific expectations teams are expected meet",
     "url": "/"
   },  {
     "title": "Standards",
 "section": "Home",    "layout": "collection",
     "hasFrontmatterDate": false,
-    "date": "24 April 2025",
+    "date": "6 May 2025",
     "templateContent": "our standards set out specific expectations all teams must meet",
     "url": "/standards/"
   }]
