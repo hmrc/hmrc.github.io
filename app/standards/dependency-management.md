@@ -16,6 +16,7 @@ Managing the dependencies of your software code is a key part of ensuring it is 
 <hr class="govuk-section-break--l govuk-section-break--visible">
 
 ## Requirement(s)
+- [You MUST version all software dependencies](#you-must-version-all-software-dependencies)
 - [You MUST consider the suitability of new dependencies](#you-must-consider-the-suitability-of-new-dependencies)
 - [You MUST consider the benefits of each dependency](#you-must-consider-the-benefits-of-each-dependency)
 - [You MUST be able to produce a list of all dependencies](#you-must-be-able-to-produce-a-list-of-all-dependencies)
@@ -24,6 +25,12 @@ Managing the dependencies of your software code is a key part of ensuring it is 
 - [You MUST consider the impact of vulnerabilities in your dependencies](#you-must-consider-the-impact-of-vulnerabilities-in-your-dependencies)
 - [You MUST prevent known vulnerable dependencies being used](#you-must-prevent-known-vulnerable-dependencies-being-used)
 - [You MUST test your software appropriately after updating a dependency](#you-must-test-your-software-appropriately-after-updating-a-dependency)
+- [You MUST store all software artefacts in a suitable repository](#you-must-store-all-software-artefacts-in-a-suitable-repository)
+- [You MUST fetch the software artefacts for your dependencies from a trustworthy source](#you-must-fetch-the-software-artefacts-for-your-dependencies-from-a-trustworthy-source)
+
+### You MUST version all software dependencies
+
+Versioning of software dependencies ensures that software builds are reproducible and identify exactly the code that was included for a given version of your software. It is also important to help manage how updates and changes are integrated into your own application.
 
 ### You MUST consider the suitability of new dependencies
 
@@ -62,3 +69,11 @@ Through tooling, you can ensure that software with dependencies with known explo
 ### You MUST test your software appropriately after updating a dependency
 
 When you update a dependency, you should be confident that it has not introduced an unexpected change in behaviour and that it works alongside other dependencies as expected. This would usually be most easily achieved through appropriate automated tests that verify the software functions correctly.
+
+### You MUST store all software artefacts in a suitable repository
+
+All dependencies should be versioned using an appropriate repository and dependency management tooling. You should never need to manually download or copy dependency code into your application, as this is prone to human error, security risks, and unexpected changes in behaviour.
+
+### You MUST fetch the software artefacts for your dependencies from a trustworthy source
+
+When you add a dependency to your application, you must consider where the built software artefacts for that dependency will be fetched from. This must be a form a repository where a given version of the artefact is immutably stored and specific versions can be retrieved.
