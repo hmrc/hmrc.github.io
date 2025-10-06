@@ -27,7 +27,7 @@ module.exports = function(eleventyConfig) {
     },
     footer: {
       copyright: {
-        html: '© <a class="govuk-footer__link govuk-footer__copyright-logo" href="https://github.com/hmrc/engineering-site-spike/LICENCE">Crown copyright (HM Revenue & Customs)</a>'
+        html: '© <a class="govuk-footer__link govuk-footer__copyright-logo" href="https://github.com/hmrc/hmrc.github.io/blob/main/LICENSE">Crown copyright (HM Revenue & Customs)</a>'
       },
       meta: {
         items: [
