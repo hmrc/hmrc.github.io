@@ -1,6 +1,6 @@
 ---
 title: Adopt iterative, risk-based approaches
-date: 2025-03-21
+date: 2026-02-03
 id: 2
 tags:
     - Value focus
@@ -28,5 +28,9 @@ Once we have insights from our users, we can better prioritise the remaining inc
 
 - Work with stakeholders to help them understand the opportunities to release an MVP that can be incremented.
 - Ensure that you have repeatable, automated build pipelines that include appropriate automated tests.
+- Build, test and deploy small changes frequently to reduce risk and deliver value to end user often.
+- Observe user behaviour and the impact of changes, and use this to inform future iterations.
+- Optimise for short feedback cycles that allow you to adapt as you learn more about your users.
+- Make use of public and private beta releases to gain feedback from real users, early.
 - Reduce the reliance upon end-to-end testing by building confidence early through faster, cheaper means of testing including automation.
 - Support stakeholders in identifying, understanding, mitigating or accepting the risks of each release.
