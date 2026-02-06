@@ -25,7 +25,8 @@ You may have many different user groups to consider, for example:
 - External-facing services can be used by many different types of customers, such as individuals, organisations and agents.
 - Internal-facing services may need to consider different levels of user, such as case workers, supervisors and administrators or auditors.
 - Enabling platforms may have a range of different consumers, both internal and external, who have a wide-range of technical experience.
-- All services need to consider the range of digital literacy of their users and their accessibility needs.
+
+All services also need to consider the range of digital literacy of their users and their accessibility needs.
 
 <hr class="govuk-section-break--l govuk-section-break--visible">
 
