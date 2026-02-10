@@ -1,6 +1,6 @@
 ---
 title: Build with testing in mind
-date: 2025-03-21
+date: 2026-02-10
 id: 8
 tags:
     - Operational enablers

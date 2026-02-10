@@ -1,6 +1,6 @@
 ---
 title: Promote flexibility and reusability
-date: 2025-03-21
+date: 2026-02-10
 id: 7
 tags:
     - Operational enablers

@@ -1,6 +1,6 @@
 ---
 title: Take ownership of quality and delivery
-date: 2025-03-21
+date: 2026-02-10
 id: 3
 tags:
     - Accountability & culture

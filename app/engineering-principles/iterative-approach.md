@@ -1,6 +1,6 @@
 ---
 title: Adopt iterative, risk-based approaches
-date: 2026-02-03
+date: 2026-02-10
 id: 2
 tags:
     - Value focus

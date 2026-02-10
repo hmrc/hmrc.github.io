@@ -1,6 +1,6 @@
 ---
 title: Prioritise the end user
-date: 2025-03-21
+date: 2026-02-10
 id: 1
 tags:
     - Value focus

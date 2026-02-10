@@ -1,6 +1,6 @@
 ---
 title: Invest in long-term quality and innovation
-date: 2025-03-21
+date: 2026-02-10
 id: 6
 tags:
     - Operational enablers
