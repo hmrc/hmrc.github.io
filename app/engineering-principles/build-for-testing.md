@@ -24,8 +24,10 @@ Before releasing software change, we should always have applied appropriate test
 
 ## Applying this principle
 
-- Ensure that technical choices enable and encourage automated tests as the default choice.
-- For all changes, decide on the best way to gain confidence quickly, cheaply and easily -- for example, applying unit tests instead of UI-driven tests where possible.
-- Establish working practices in your team that reduce the amount of duplication across different types of testing.
-- Use build pipelines to run regression tests frequently and automatically.
-- Provide appropriate production-like testing environments for all platforms and tools, considering the lifespan of these and how test data will be made available.
+- Ensure that your technical choices enable automated testing -- manual testing should be the exception.
+- Consider all the appropriate testing approaches you need to apply -- including accessibility and security testing, alongside functional testing.
+- For all changes, you should decide on the best way to gain confidence quickly, cheaply and easily -- for example, using unit tests instead of UI-driven tests where possible, or using contract testing to allow integrations to be tested earlier in the development process.
+- Run your tests frequently and automatically by using build pipelines.
+- You should establish working practices in your team that reduce the amount of duplication across different types of testing.
+- Ensure that you have access to appropriate production-like testing environments for the platforms and tools you use, and you understand what different environments can be used for.
+- Make sure that you understand the lifespan of any test data and how you will make it available in test environments.
