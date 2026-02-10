@@ -11,21 +11,23 @@ Last updated: {{ date | postDate }}
 </p>
 
 <p class="govuk-body-l">
-Enable teams to choose appropriate tools, practices and approaches for the problem they are solving. Encourage the use of reusable components and open standards to improve efficiency, reduce maintenance effort and improve consistency.
+You should be able to choose appropriate tools, practices and approaches for the problem you are solving. Common problems should be solved once through reusable components, allowing you to focus on the specific problems of your service, reducing maintenance effort and improving consistency.
 </p>
 
 <hr class="govuk-section-break--l govuk-section-break--visible">
 
 ## Motivation
 
-By equipping teams with knowledge of available tools and technologies that can be supported within the organisation, they can make better decisions about the best choice for the problem they are solving. Maintaining a catalogue of reusable components helps them solve common challenges with robust, well-tested solutions in an understood way.
+By having knowledge of available tools and technologies that can be supported within the organisation, you can make better decisions about which is best suited to the problem you are solving. Using a catalogue of reusable components, you can find shared solutions to common challenges that are robust and well-tested.
 
 <hr class="govuk-section-break--l govuk-section-break--visible">
 
 ## Applying this principle
 
-- Design high-level architectural patterns without overly constraining how these may be implemented in different contexts.
-- Avoid premature abstractions that tightly couple different services together unnecessarily.
-- Ensure that reusable components have sustainable support to update, document, and maintain them.
-- Provide an easy way for teams to identify potentially useful components themselves, for example through developer platforms and documentation.
-- Design lightweight governance processes that allow appropriate innovation and experimentation, whilst ensuring organisational standards are still considered.
+- You should make use of software design patterns such as microservice architectures that enable you to develop, deploy and scale different parts of your service independently, and improves potential re-use.
+- When designing the architecture of your service, consider how parts of your service may be reusable by others by exposing appropriate APIs.
+- Ensure that any APIs your service does expose are documented appropriately such that they can be discovered and understood easily by other teams.
+- Before developing your service, consider how you might be able to reuse existing services and components to reduce the need for repeated work.
+- Try to avoid premature abstractions that tightly couple different services together unnecessarily.
+- When building reusable components, ensure you have a sustainable way to support updating, documenting and maintaining them.
+- Ensure that your governance processes allow appropriate innovation and experimentation, whilst ensuring organisational standards are still considered.
