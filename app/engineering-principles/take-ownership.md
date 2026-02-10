@@ -28,3 +28,4 @@ The people with the most knowledge about a service and how it works are those wh
 - Build stakeholder relationships and processes that allow you to manage your own releases, with agreed guard rails or controls for higher risk changes.
 - Ensure you have a clear understanding of what standards are expected of you for the tools, technologies and platforms you are using.
 - Where you do need to hand over responsibility for your service to another team, collaborate with them to set clear expectations of each other -- preferring conversations and co-working over documentation and checklists.
+- Identify what metrics are important for you to understand the health of your service and ensure you can monitor these over time.

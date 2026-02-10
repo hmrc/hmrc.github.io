@@ -31,3 +31,4 @@ Before releasing software change, we should always have applied appropriate test
 - You should establish working practices in your team that reduce the amount of duplication across different types of testing.
 - Ensure that you have access to appropriate production-like testing environments for the platforms and tools you use, and you understand what different environments can be used for.
 - Make sure that you understand the lifespan of any test data and how you will make it available in test environments.
+- Ensure that you have suitable logging or observability in test environments to understand why a test has failed.

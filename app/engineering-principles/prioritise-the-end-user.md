@@ -36,3 +36,4 @@ All services also need to consider the range of digital literacy of their users 
 - User research is a team sport -- regardless of profession, we expect all team members engage with user research activity, working in collaboration with a professional user researcher.
 - Where user research isn't feasible, look to performance analytics to provide insights -- ideally before you start implementing change.
 - Design for diverse user needs and ensure that software is usable by people with accessibility requirements.
+- Where possible, co-design solutions with users and stakeholders to align technical choices with real-world needs.

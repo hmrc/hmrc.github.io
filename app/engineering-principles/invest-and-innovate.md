@@ -26,3 +26,4 @@ By frequently considering the technical health of our software, we can make bett
 
 - Clearly communicate when short-term decisions result in technical debt, make a plan about when it will be addressed, and ensure it is tracked in a way that reduces the risk of it being forgotten.
 - Evaluate new technologies against their ability to address known problems in a way that will benefit us or our users, applying a data-driven approach where possible.
+- When trying new technologies or approaches, set clear expectations about how long investigations should last, what you are expecting to learn, and when you will review progress.

@@ -33,3 +33,4 @@ By exchanging knowledge with other teams, everyone can benefit and learn from on
 - Engage in professional communities and communities of practice where possible, to share your experience and learn from others.
 - Prefer shared, open communication channels over private channels, direct messages or emails where possible -- this makes it easier for others to learn from your experiences.
 - Where possible, avoid building processes that prevent easy communication -- such as requiring people to engage with your team by raising a ticket or providing a formal work request, for low effort asks. Where audit trails for changes are necessary, consider automating this process where feasible.
+- Help others to understand the reasoning behind decisions made whilst designing and building your service through artefacts such as decision logs.

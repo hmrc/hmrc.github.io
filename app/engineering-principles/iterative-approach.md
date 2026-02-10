@@ -32,5 +32,6 @@ Once we have insights from our users, we can better prioritise the remaining inc
 - Observe user behaviour and the impact of changes, and use this to inform future iterations.
 - Optimise for short feedback cycles that allow you to adapt as you learn more about your users.
 - Make use of public and private beta releases to gain feedback from real users, early.
+- Use techniques such as feature flags, canary releases and A/B testing to control how change is rolled out to users.
 - Reduce the reliance upon end-to-end testing by building confidence early through faster, cheaper means of testing including automation.
 - Support stakeholders in identifying, understanding, mitigating or accepting the risks of each release.
