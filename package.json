@@ -7,7 +7,7 @@
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-navigation": "^1.0.1",
-    "@x-govuk/govuk-eleventy-plugin": "^6.7.2",
+    "@x-govuk/govuk-eleventy-plugin": "^8.3.0",
     "luxon": "^3.5.0"
   }
 }
